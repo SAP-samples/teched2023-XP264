@@ -1,18 +1,22 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-XP264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-XP264)
 
-# Session ID - Session Title
+#XP264  - Get Hands-On Security Recommendations for Your SAP BTP Environment
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2023 session called XP264  - Get Hands-On Security Recommendations for Your SAP BTP Environment.  
 
 ## Overview
 
-This session introduces attendees to...
+In this session attendees will learn about the security recommendation for BTP services and how to implement them. The SAP BTP Security Recommendations are available in the SAP Help Portal in the sections for the SAP Business Technology Platform.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are active Trail Accounts for SAP BTP and for the SAP Cloud Identity Services. 
+First you have to get your SAP BTP Trail Account. Follow the instructions: [Get a Free Account on SAP BTP Trial] (https://developers.sap.com/tutorials/hcp-create-trial-account.html)
+Second task is to activate your SAP Cloud Identity Services Trail. Follow the instrustions in this blog: [SAP Cloud Identity Services offered as Trial Version] (https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
+
+Now you are ready to strt the excersices.
 
 ## Exercises
 
