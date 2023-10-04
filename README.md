@@ -18,7 +18,7 @@ First you have to get your SAP BTP Trail Account. Follow the instructions:
 Second task is to activate your SAP Cloud Identity Services Trail. Follow the instrustions in this blog: 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
-Now you are ready to strt the excersices.
+Now you are ready to start the excercises.
 
 ## Exercises
 
