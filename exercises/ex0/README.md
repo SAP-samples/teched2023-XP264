@@ -1,6 +1,9 @@
-# Level 1 Heading
+# Accessing the BTP services
 
-In this exercise, you will...
+After you did activate your TRIAL Account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity TRAIL with access to the SAP Cloud Identity Cockpit you are set for the next steps.
+We can expect that you did create a **Trail subccount** in your SAP BTP Trail Account cockpit.
+We also expect that you did acitvate the **Cloud foundry** environment.
+Follwing the blog to setup the SAP Cloud Identity Services Trail you did already set-up the Trust confugration in your Trail Subaccount.
 
 ## Level 2 Heading
 
