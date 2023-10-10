@@ -6,11 +6,11 @@ We can expect that you did create a **Trail subccount** in your SAP BTP Trail Ac
 
 We also expect that you did enable the **Cloud Foundry Environment**.
 
-Follwing the blog to setup the SAP Cloud Identity Services Trail you did already establish the Trust configration in your BTP Trail Subaccount, which adds the TRIAL Identity Provider (Identity Authentication Service tenant) for applications to enable users from your TRAIL Identity Provider (Identity Atuentication Service tenant) to log on to applications consumed in this subaccount.
+Following the blog to setup the SAP Cloud Identity Services Trail you did already establish the Trust configration in your BTP Trail Subaccount, which adds the TRIAL Identity Provider  for applications to enable users from your TRAIL Identity Provider to log on to applications consumed in this subaccount.
 
 ## Level 2 Heading
 
-After completing these steps you will have....
+After completing these steps you will see under 
 
 1.	Click here.
 <br>![](/exercises/ex0/images/00_00_0010.png)
