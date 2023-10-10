@@ -10,6 +10,7 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
 ## Result of the preparation
 
+Now logon to our SAP BTP Trail cockpit with the user you used to activate the Account.
 After completing these steps you will see in the BTP Cockpit under TRAIL HOME -> your initial subaccount (e.g. Trail Subaccount 1 ) -> Security -> Trust Configuration
 the following configuration with your Custom Identity Provider for Applications configured.
 
