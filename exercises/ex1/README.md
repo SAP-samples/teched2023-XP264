@@ -49,9 +49,9 @@ Sucess - Navigate to the Subaccount
 
 <br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
 
-Go to Instance and Subscriptions in your Subaccount
+Go to Instance and Subscriptions in your Subaccount - Click on the tile to open SAP Build Apps 
 
-<br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
+<br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
 
 7. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
