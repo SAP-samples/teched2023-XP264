@@ -14,7 +14,7 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
  Go to the [**SAP BTP Trial page**](https://account.hanatrial.ondemand.com/trial/#/home/trial)) and click **Log On**.
 
-2. You will see one main button on the welcome screen of the SAP BTP Cockpit. Click on **Go To Your Trial Account** to navigate to your global account. Bookmark the link for fast and quick access to the BTP cockpit.
+2. You will see one main button on the welcome screen of the SAP BTP Cockpit. Click on **Go To Your Trial Account** to navigate to your global account. Bookmark the link for fast and quick access to the **BTP cockpit**.
 
 3. Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is not enabled, click on Enable Cloud Foundry. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental; information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
 
@@ -30,7 +30,7 @@ Check if the Custom Identity Provider for Applications is configured. If not go 
 
 5. Logon to your personal Identity Provider - SCI Cockpit (SCI-SAP Cloud Identity service).
    
-   Navigate in your Subaccoount to **Instance and Subscriptions**
+   Navigate in your Subaccoount to Instance and Subscriptions
 
    Click on the tile next to the subscribt application **Cloud Identity Services** which says **Go to Application** when you hover over it.
    A new window opens with your SAP Cloud Identity Services Trail Account Cockpit. Bookmark the link for fast and quick access to the **SCI cockpit**.
