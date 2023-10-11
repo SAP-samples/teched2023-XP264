@@ -28,12 +28,12 @@ Check if the Custom Identity Provider for Applications is configured. If not go 
 
 <br>![](/exercises/ex0/images/Subaccoount1_TrustConfiguration.png)
 
-5. Logon to your personal Identity Provider (SAP Cloud Identity service Trail Account).
+5. Logon to your personal Identity Provider - SCI Cockpit (SCI-SAP Cloud Identity service).
    
    Navigate in your Subaccoount to **Instance and Subscriptions**
 
    Click on the tile next to the subscribt application **Cloud Identity Services** which says **Go to Application** when you hover over it.
-   A new window opens with your Cloud Identity Services Trail Account. Bookmark the link for fast and quick access to the SCI (SAP Cloud Identity service ) cockpit.
+   A new window opens with your SAP Cloud Identity Services Trail Account Cockpit. Bookmark the link for fast and quick access to the **SCI cockpit**.
 
 
 ## Summary
