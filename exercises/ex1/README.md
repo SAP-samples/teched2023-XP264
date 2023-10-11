@@ -43,7 +43,7 @@ Review your entries - Finish
 
 Progressing -takes a bit
 
-<br><img src="/exercises/ex1/images/Booster7.png" width="70%">
+<br><img src="/exercises/ex1/images/Booster 7.png" width="70%">
 
 Sucess - Navigate to the Subaccount 
 
