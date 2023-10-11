@@ -98,16 +98,22 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
  <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
 
-10. Now change the Default Atuentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTF . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on SAP BTP which use the XSUAAA for authentication require a Time-based One-time Password Algorithmus (TOTP) as second factor. 
+10. Now change the Default Authentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTF . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on SAP BTP which use the XSUAAA for authentication require a Time-based One-time Password Algorithmus (TOTP) as second factor.
+A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice- usually on a mobile device. It appears as six-digit numbers that regenerate every 30 seconds.
     
 <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_MFA.png" width="70%">
 
+The tenant Administrator must configure the Two-Factor Authentication in IAS in the admin console for any user.
+Go to User Management -> Select the <admin user> who needs the MFA enabled.
+Select the user -> Go to Authentication -> Multi-Factor Authentication here, I selected my user.
+Set MFA status as ON
 
+## Exercise 1.3 - Enable MFA for your User
 
-
-## Exercise 1.3 - Giving a user access to a subaccount
-
-In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any 
+The tenant Administrator must configure the Two-Factor Authentication in IAS in the admin console for any user.
+Go to User Management -> Select the <admin user> who needs the MFA enabled.
+Select the user -> Go to Authentication -> Multi-Factor Authentication here, I selected my user.
+Set MFA status as ON
 
 
 
