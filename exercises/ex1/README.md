@@ -64,21 +64,23 @@ You will see the entry page of the SAP Build App application.
 
 
 
-## Exercise 1.2 - Giving a user access to the global account
+## Exercise 1.2 - Configuring mutlifactor authentication to access SAP Build Apps
 
-In exercise 1.1 we enabled users to authenticate with the custom identity provider when they try to access the cockpit. However, the user from the custom identity provider was not allowed to access the cockpit user interface. In this exercise we will give the user from the custom identity provider access to the specific global account.
+In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
-1. Go to the browser tab with the SAP BTP Cockpit. In this tab, you are still authenticated with your SAP ID Service user. Choose the menu item Security --> Users
+1. Logout of the SAP Build application and close the Browser window.
 
-2. Review the list of users associated with the global account. Only users from the default identity provider are listed.
+  
+
+3. Review the list of users associated with the global account. Only users from the default identity provider are listed.
 <br><img src="/exercises/ex1/images/Global_Account_Users_Blurred.png" width="70%">
 
-3. Click on the "Create" button
+4. Click on the "Create" button
 
-4. In the "New User" dialog, choose your custom identity provider, enter the username and e-mail address of your user in the custom identity provider and click on "Create".
+5. In the "New User" dialog, choose your custom identity provider, enter the username and e-mail address of your user in the custom identity provider and click on "Create".
 <br><img src="/exercises/ex1/images/New_User.png" width="70%">
 
-5. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
+6. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
 <br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="70%">
 
 :bulb: If your browser window is rather small, the "Assign Role Collection" button may not be visible. It becomes available if you click on the button with the tooltip "More" to the right of the search field in the "Role Collections" section.
