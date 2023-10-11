@@ -16,23 +16,37 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 
 <br><img src="/exercises/ex1/images/GA-Boosters.png" width="70%">
 
-4. Enter SAP Build Apps in the search field. Click on it and create it.
+4. Enter SAP Build Apps in the search field. Click on **Get started with SAP Build Apps**.
 
-<br><img src="/exercises/ex1/images/SMPSAPBUILDAPPS1.png" width="70%">
+<br><img src="/exercises/ex1/images/gBoostergetstartedsapbuild apps.png" width="70%">
 
-5. So far, only the default identity provider is configured, which is the SAP ID Service. Click on "Establish Trust" to add your custom identity provider
-<br><img src="/exercises/ex1/images/Establish_Trust.png" width="70%">
+5. Now a wizzard opens and you follow the wizzard and click next after each entry.
 
-6. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
+Check prerequisites
+<br><img src="/exercises/ex1/images/booster2.png" width="70%">
+Select Sceanrio - select your subaccount
+<br><img src="/exercises/ex1/images/booster3.png" width="70%">
+Configure subbaccount - enter your trail subaccount
+<br><img src="/exercises/ex1/images/Booster4.png" width="70%">
+Add Users - enter your email adresss as logon ID for Administrators and Developers
+<br><img src="/exercises/ex1/images/Booster5.png" width="70%">
+Review your entries - Finish
+<br><img src="/exercises/ex1/images/booster6.png" width="70%">
+Progressing -takes a bit
+<br><img src="/exercises/ex1/images/Booster7.png" width="70%">
+Sucess - Navigate to the Subaccount
+<br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
 
-7. A new section was added to the list of identity providers, labeled "Custom Identity Provider for Platform Users". Your custom identity provider is listed as "bestrunXY-platform". Click on the "Open" link. 
+7. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
 
-8. Another logon page is displayed. Note that the URL is now "bestrunXY.accounts.ondemand.com" and the logon screen has changed. You are now authenticating with your custom identity provider instead of SAP ID Service.
+8. A new section was added to the list of identity providers, labeled "Custom Identity Provider for Platform Users". Your custom identity provider is listed as "bestrunXY-platform". Click on the "Open" link. 
+
+9. Another logon page is displayed. Note that the URL is now "bestrunXY.accounts.ondemand.com" and the logon screen has changed. You are now authenticating with your custom identity provider instead of SAP ID Service.
 <br><img src="/exercises/ex1/images/Custom_IdP_Logon.png" width="70%">
 
-9. Authenticate by using the credentials for your custom identity provider.
+10. Authenticate by using the credentials for your custom identity provider.
 
-10. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account. This is expected as we did not make this association, yet. We will do this in the following exercise.
+11. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account. This is expected as we did not make this association, yet. We will do this in the following exercise.
 <br><img src="/exercises/ex1/images/No_Global_Account.png" width="70%">
 
 ## Exercise 1.2 - Giving a user access to the global account
