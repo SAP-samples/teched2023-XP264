@@ -28,7 +28,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Configuring multifactor authentication for applications](exercises/ex1/)
-    - [Exercise 1.1 - Subscribe to SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11-Subscribe to SAP Build Apps and enter the application with your trail identity provider user)
+    - [Exercise 1.1 - Subscribe to SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11- Subscribe to SAP Build Apps and enter the application with your trail identity provider user)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
