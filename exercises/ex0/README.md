@@ -33,7 +33,7 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
 6. In the SCI administration console -> Applications & Resources -> Applications you will see the trust configuration that was established by your BTP trial account. It is called XSUAA_trail.
 
-<br>![](/exercises/ex0/images/Subaccount%20Overview.png)
+<br>![](/exercises/ex0/images/SCI_XSUAA_trial.png)
 
    Applications you deploy in your BTP subaccount can now delegate authentication to the SCI tenant you just created. And in the SCI admin console you may configure the various options for authentication, multi-factor authentication or use SCI just as a proxy for a corporate identity provider that you may have established.
 
