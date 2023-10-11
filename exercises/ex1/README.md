@@ -88,57 +88,27 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 5. On the left side you see Bundled and System Applications. In Bundeled Applications we see the Application XSUAA_trail. Click on it to see the confguriation data of this application. 
 <br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
 
+6. In the configuration screen of the XSUAA_trail application navigate to Authentication & Access
+<br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
 
-<br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="70%">
+7. Now you can see the line where Risk-Based Authentication can be configured. Clikc on the little arrow on the right.
 
-:bulb: If your browser window is rather small, the "Assign Role Collection" button may not be visible. It becomes available if you click on the button with the tooltip "More" to the right of the search field in the "Role Collections" section.
+<br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
+
+9. 
+
+10. <br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="70%">
+
+:bulb: If your browser win
 <br><img src="/exercises/ex1/images/Assign_Role_Collection_More.png" width="70%">
-
-6. In the "Assign Role Collection" dialog, select the entry "Global Account Administrator" and click on "Assign Role Collection".
-<br><img src="/exercises/ex1/images/Assign_Role_Collection.png" width="70%">
-
-7. The role collection "Global Account Administrator" is now shown in the list of the user's role collections
-
-8. In the SAP BTP Cockpit, choose the menu item Security --> Trust Configuration and click on "Open" in the row for your custom identity provider
-
-9. On the logon page of the custom identity provider, authenticate with your credentials for the custom identity provider. This time the SAP BTP Cockpit for the global account is displayed
-
-10. Click on your username in the upper right corner of the cockpit and choose the menu item "User Information". You are indeed signed in with the user from your custom identity provider, who is now administrator of the global account.
-
-:bulb: How does the browser know, which identity provider to use for authentication? It is specified in the URL! 
-- To use the default identity provider, in this case SAP ID Service, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/...
-- To use a specific custom identity provider, call a URL like https://cockpit.eu10.hana.ondemand.com/cockpit/?idp=bestrun01.accounts.ondemand.com#/globalaccount/...
 
 
 ## Exercise 1.3 - Giving a user access to a subaccount
 
-In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any subaccount. In this exercise we will enable the user to also access a subaccount.
+In the previous exercise, the user from the custom identity provider was given access to the global account. However, this does not mean that the user can access any 
 
-1. From the previous exercise you are still signed into the cockpit with the user from the custom identity provider. Choose the menu item "Account Explorer" and click on the subaccount tile. 
-<br><img src="/exercises/ex1/images/Subaccount_Tile.png" width="70%">
 
-2. You receive an error message that your user is not a member of the subaccount. The user from the custom identity provider is only associated with the global account, no subaccount
-<br><img src="/exercises/ex1/images/Error_Not_Subaccount_Member.png" width="70%">
 
-3. Logoff from the SAP BTP Cockpit. Open the SAP BTP Cockpit URL again in the browser and authenticate with your SAP ID Service credentials. Make sure that you use the URL in the format https://cockpit.eu10.hana.ondemand.com/cockpit#/globalaccount/. If the "?idp=" parameter was in the URL, you would be taken to your custom identity provider instead.
-
-4. In the account explorer, click on the subaccount again. As your SAP ID Service user is already a member of the subaccount, you can access the subaccount overview page
-<br><img src="/exercises/ex1/images/Subaccount_Blur.png" width="70%">
-
-5. Just like for the global account, click on the menu item Security --> Users of the subaccount overview. You will see the list of subaccount members. Click on "Create".
-
-6. The "New User" dialog looks just like for the global account. Choose your custom identity provider and enter the user name and e-mail address for your user in the custom identity provider. Then click on "Create".
-
-7. When the new entry is displayed in the list of members, click on the ">" character to display the details of the new subaccount member. As for the global account, the user initially has no role collections assigned.
-
-8. Click on "Assign Role Collection", select the following 4 entries: "Cloud Connector Administrator", "Connectivity and Destination Administrator", "Destination Administrator" and "Subaccount Administrator" and click on "Assign Role Collection"
-<br><img src="/exercises/ex1/images/Assign_Role_Collection_Subaccount.png" width="70%">
-
-9. To test the configuration, switch to the user from the custom identity provider. Choose the menu item Security --> Trust Configuration. Click on the "Open" link in the row for your custom identity provider in the section "Custom Identity Provider for Platform Users".
-
-10. The logon page for the custom identity provider is shown. Enter your credentials for this identity provider.
-
-11. After authentication, the subaccount overview page is displayed as the user from the custom identity provider is now also a member of the subaccount and has the necessary access.
 
 ## Summary
 
