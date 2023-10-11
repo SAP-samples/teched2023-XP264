@@ -86,21 +86,23 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 <br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
 
 5. On the left side you see Bundled and System Applications. In Bundeled Applications we see the Application XSUAA_trail. Click on it to see the confguriation data of this application. 
-<br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
-
 6. In the configuration screen of the XSUAA_trail application navigate to Authentication & Access
+   
 <br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
 
-7. Now you can see the line where Risk-Based Authentication can be configured. Clikc on the little arrow on the right.
+8. Now you can see the line where Risk-Based Authentication can be configured. Click on the little arrow on the right.
 
 <br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
 
-9. 
+9. In the Risk-Based Authentication frame you have the possiblity to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
 
-10. <br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="70%">
+ <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
 
-:bulb: If your browser win
-<br><img src="/exercises/ex1/images/Assign_Role_Collection_More.png" width="70%">
+10. Now change the Default Atuentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTF . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on SAP BTP which use the XSUAAA for authentication require a Time-based One-time Password Algorithmus (TOTP) as second factor. 
+    
+<br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_MFA.png" width="70%">
+
+
 
 
 ## Exercise 1.3 - Giving a user access to a subaccount
