@@ -70,20 +70,22 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 1. Logout of the SAP Build application and close the Browser window.
 
-<br><img src="/exercises/ex1/images/Global_Account_Users_Blurred.png" width="70%">
+<br><img src="/exercises/ex1/images/Singoutsapbuild.png" width="70%">
 
-2. 
+2. Open the SCI Trail cockpit, either from yor bookmark or from the BTP cockpit - Instances and Subscriptions - click on the Tile next to Cloud Identity Services
+
+<br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
   
 
-3. Review the list of users associated with the global account. Only users from the default identity provider are listed.
+4. Review the list of users associated with the global account. Only users from the default identity provider are listed.
 <br><img src="/exercises/ex1/images/Global_Account_Users_Blurred.png" width="70%">
 
-4. Click on the "Create" button
+5. Click on the "Create" button
 
-5. In the "New User" dialog, choose your custom identity provider, enter the username and e-mail address of your user in the custom identity provider and click on "Create".
+6. In the "New User" dialog, choose your custom identity provider, enter the username and e-mail address of your user in the custom identity provider and click on "Create".
 <br><img src="/exercises/ex1/images/New_User.png" width="70%">
 
-6. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
+7. The user is added to the list and is now associated with the global account. However, the user does not yet have any authorizations. To change this, click on the ">" character at the right end of the row for the new user. A dialog with the user details is displayed. So far, no role collections were assigned to the user. Click the "Assign Role Collection" button.
 <br><img src="/exercises/ex1/images/Assign_Role_Collection_Button.png" width="70%">
 
 :bulb: If your browser window is rather small, the "Assign Role Collection" button may not be visible. It becomes available if you click on the button with the tooltip "More" to the right of the search field in the "Role Collections" section.
