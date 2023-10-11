@@ -14,7 +14,7 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 
 2. Navigate to Boosters
 
-<br><img src="/exercises/ex1/images/SMPSAPBUILDAPPS1.png" width="70%">
+<br><img src="/exercises/ex1/images/GA-Boosters.png" width="70%">
 
 4. Enter SAP Build Apps in the search field. Click on it and create it.
 
