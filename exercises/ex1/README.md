@@ -1,6 +1,6 @@
 # Exercise 1 - Configure multifactor authentication for applications
 
-In this exercise, we will show how to configure risk based authentication for applications in a subaccount. In your company you can configure the riskbased authentication additionally for the access to the SAP BTP Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts)
+In this exercise, we will show how to configure risk based authentication for applications in a subaccount. In your company you can configure the riskbased authentication additionally for the access to the SAP BTP Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
 The configuration in the SCI cockpit is the same, only for a different application. You will use SAP Build Apps as application to configure the riskbased authentication.
 
 # Relevant Security Recommendations
@@ -70,6 +70,9 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 1. Logout of the SAP Build application and close the Browser window.
 
+<br><img src="/exercises/ex1/images/Global_Account_Users_Blurred.png" width="70%">
+
+2. 
   
 
 3. Review the list of users associated with the global account. Only users from the default identity provider are listed.
