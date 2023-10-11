@@ -10,7 +10,7 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
 ## Result of the preparation
 
-1. Logon to your personal SAP BTP Trail account cockpit with the user you used to activate the Account. Go to the [**SAP BTP Trial page**](https://account.hanatrial.ondemand.com/trial/#/home/trial)) and click **Log On**.
+1. Logon to your personal SAP BTP Trail account cockpit with the user you used to activate the Account. Go to the [**SAP BTP Trial page**](https://account.hanatrial.ondemand.com/trial/#/home/trial) and click **Log On**.
 
 2. You will see one main button on the welcome screen of the SAP BTP Cockpit. Click on **Go To Your Trial Account** to navigate to your global account.  
    Bookmark the link for fast and quick access to the **BTP cockpit**.
