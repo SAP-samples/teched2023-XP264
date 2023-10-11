@@ -53,18 +53,16 @@ Go to Instance and Subscriptions in your Subaccount - Click on the tile to open 
 
 <br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
+A Logon page opens. Use your Trial Account Identity Provider to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider.
 
-7. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
+<br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
-8. A new section was added to the list of identity providers, labeled "Custom Identity Provider for Platform Users". Your custom identity provider is listed as "bestrunXY-platform". Click on the "Open" link. 
+The Logon should be succesfull as your user is assigned to the role collections needed during the booster creation process.
+You will see the entry page of the SAP Build App application.
 
-9. Another logon page is displayed. Note that the URL is now "bestrunXY.accounts.ondemand.com" and the logon screen has changed. You are now authenticating with your custom identity provider instead of SAP ID Service.
-<br><img src="/exercises/ex1/images/Custom_IdP_Logon.png" width="70%">
+<br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
-10. Authenticate by using the credentials for your custom identity provider.
 
-11. A message is displayed that you are logged on, but the user from your custom identity provider is not associated with any global account. This is expected as we did not make this association, yet. We will do this in the following exercise.
-<br><img src="/exercises/ex1/images/No_Global_Account.png" width="70%">
 
 ## Exercise 1.2 - Giving a user access to the global account
 
