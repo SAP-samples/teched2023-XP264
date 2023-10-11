@@ -1,4 +1,4 @@
-# Accessing the BTP services
+# Getting started
 
 After you did activate your TRIAL Account for SAP BTP with access to the BTP Cockpit and the SAP Cloud Identity TRAIL with access to the SAP Cloud Identity Cockpit you are set for the next steps.
 
