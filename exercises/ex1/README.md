@@ -24,18 +24,35 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 
 Check prerequisites
 <br><img src="/exercises/ex1/images/booster2.png" width="70%">
-Select Sceanrio - select your subaccount
+
+Select Scenario - select your subaccount
+
 <br><img src="/exercises/ex1/images/booster3.png" width="70%">
+
 Configure subbaccount - enter your trail subaccount
+
 <br><img src="/exercises/ex1/images/Booster4.png" width="70%">
+
 Add Users - enter your email adresss as logon ID for Administrators and Developers
+
 <br><img src="/exercises/ex1/images/Booster5.png" width="70%">
+
 Review your entries - Finish
+
 <br><img src="/exercises/ex1/images/booster6.png" width="70%">
+
 Progressing -takes a bit
+
 <br><img src="/exercises/ex1/images/Booster7.png" width="70%">
-Sucess - Navigate to the Subaccount
+
+Sucess - Navigate to the Subaccount 
+
 <br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
+
+Go to Instance and Subscriptions in your Subaccount
+
+<br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
+
 
 7. In the dialog "Establish Trust to Custom Identity Provider", choose the entry for your seat, as listed on the [Getting Started](/exercises/ex0) page, and click on "Establish Trust" to confirm.
 
