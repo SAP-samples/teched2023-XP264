@@ -18,7 +18,7 @@ You will see one main button on the welcome screen of the SAP BTP Cockpit. Click
 
 Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is not enabled, click on Enable Cloud Foundry. This may take some seconds.
 
-<br>![](/exercises/ex0/images/Subaccount Overview.png)
+<br>![](/exercises/ex0/images/Subaccount%20Overview.png)
 
 Check the Trust Configuration for application users
 
