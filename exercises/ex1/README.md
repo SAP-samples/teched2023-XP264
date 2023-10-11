@@ -86,7 +86,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 <br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
 
 5. On the left side you see Bundled and System Applications. In Bundeled Applications we see the Application XSUAA_trail. Click on it to see the confguriation data of this application. 
-<br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
+<br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
 
 6. In the configuration screen of the XSUAA_trail application navigate to Authentication & Access
 <br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
