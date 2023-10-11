@@ -16,8 +16,7 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 
 3. Enter SAP Build Apps in the search field. Click on it and create it.
 
-4. 
-<br><img src="/exercises/ex1/images/SAP_BTP_Cockpit_Account_Explorer.png" width="70%">
+<br><img src="/exercises/ex1/images/SMPSAPBUILDAPPS1.png" width="70%">
 
 5. So far, only the default identity provider is configured, which is the SAP ID Service. Click on "Establish Trust" to add your custom identity provider
 <br><img src="/exercises/ex1/images/Establish_Trust.png" width="70%">
