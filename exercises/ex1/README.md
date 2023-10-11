@@ -7,14 +7,16 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 - BTP-UAA-0001
 
 
-## Exercise 1.1 - Subscribe to SAP Build Apps and create one simple application
+## Exercise 1.1 - Subscribe to SAP Build Apps and enter the application with your trail identity provider user
 
 
-1. Open the SAP BTP Cockpit and navigate to your trial subaccount. You should have bookmarked the URL in the Getting started excercise.
+1. Open the SAP BTP Cockpit and navigate to your global account. You should have bookmarked the URL in the Getting started excercise.
 
-2. Navigate to Services - Servie Marketplace
+2. Navigate to Boosters
 
-3. Enter SAP Build Apps in the search field. Click on it and create it.
+<br><img src="/exercises/ex1/images/SMPSAPBUILDAPPS1.png" width="70%">
+
+4. Enter SAP Build Apps in the search field. Click on it and create it.
 
 <br><img src="/exercises/ex1/images/SMPSAPBUILDAPPS1.png" width="70%">
 
