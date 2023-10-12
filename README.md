@@ -28,14 +28,19 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Enable Multi-Factor Authentication for applications](exercises/ex1/)
-    - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11-Setup-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
-    - [Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps](exercises/ex1#exercise-12-Configure-Multi---Factor-Authentication-to-access-SAP-Build-Apps)
-    - [Exercise 1.3 - Enable MFA for your User](exercises/ex1#exercise-13-Enable-MFA-for-your-User)
-    - Exercise 1.3 - Enable MFA for your User
+    - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11---Setup-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
+    - [Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps](exercises/ex1#exercise-12---Configure-Multi---Factor-Authentication-to-access-SAP-Build-Apps)
+    - [Exercise 1.3 - Enable MFA for your User](exercises/ex1#exercise-13---Enable-MFA-for-your-User)
+    
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
+[Exercise 3 - Security recommendations regarding user access and authentication](exercises/ex3/)
+    - [Exercise 3.1 - Identify obsolete users](exercises/ex3/README.md#exercise-31-identify-obsolete-users)
+    - [Exercise 3.2 - Defining a custom password policy](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
+- [Exercise 4 -Security Recommendations regarding the Audit Log](exercises/ex4/)
+    - [Exercise 4.1 - Configure the SAP Audit Log Viewer service](exercises/ex4/README.md#Exercise-41-configure-the-sap-audit-log-viewer-service)
+    - [Exercise 4.2 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex4/README.md#exercise-42-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
   
 **OR** Link to the Tutorial Navigator for example...
 
