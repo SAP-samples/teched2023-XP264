@@ -52,7 +52,7 @@ To do so click on the "Edit"-button.
 You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
 Now you learn how to download them via the User Interface.
 
-1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
+1. Open the SAP BTP Cockpit. 
 
 2. Navigate to "Services " > "Instances and Subscriptions". Under Subscriptions you will see the Audit Log Viewer service. Next to the text field there is a link to the user interface. Click on it.
  
