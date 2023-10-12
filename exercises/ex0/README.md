@@ -42,4 +42,4 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 ## Summary
 
 Now that you have checked all the prerequisites and have access to both administrative cockpits, SAP BTP Cockpit and the SCI Cockpit,  
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 1 - Enable Multi-Factor Authentication for applications](../ex1/README.md)
