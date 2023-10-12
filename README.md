@@ -24,8 +24,6 @@ Now you are ready to start the excercises.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Enable Multi-Factor Authentication for applications](exercises/ex1/)
     - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11---Setup-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
@@ -41,9 +39,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 3.1 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-31-configure-the-sap-audit-log-viewer-service)
     - [Exercise 3.2 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
   
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 
