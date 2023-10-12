@@ -148,7 +148,7 @@ To get back to the SCI administrative cockpit add add **admin** in your browser 
 
 Navigate to the SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application
 
-<br><img src="/exercises/ex1/images/opensapbiuldapps.png" width="70%">
+<br><img src="/exercises/ex1/images/MFASAPBUILDAPPSOpen.png" width="70%">
 
 Select our SCI tenant to logon
 
@@ -160,7 +160,7 @@ A Pop-Up will ask for a passcode. To proceed, please enter the time-based passco
 
 Success ! The SAP Build App opens.
 
-<br><img src="/exercises/ex1/images/userprofile3.png" width="70%">
+<br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
 
 
