@@ -67,7 +67,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 14. A Logon page opens. Use your Trial Account Identity Provider to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
 
-<br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
+<br><img src="/exercises/ex1/images/logonSAPBulidApp.png" width="70%">
 
 15. The Logon should be succesfull as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the SAP Build App application.
 
