@@ -29,7 +29,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Enable Multi-Factor Authentication for applications](exercises/ex1/)
     - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11-Setup-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
-    - [Exercise 1.2 - Configuring mutlifactor authentication to access SAP Build Apps](exercises/ex1#exercise-12-Configuring-mutlifactor-authentication-to-access-SAP-Build-Apps)
+    - [Exercise 1.2 - Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps](exercises/ex1#exercise-12-Configure-Mutli-Factor-Authentication-to-access-SAP-Build-Apps)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
