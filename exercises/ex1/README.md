@@ -1,6 +1,6 @@
-# Exercise 1 - Configure multifactor authentication for applications
+# Exercise 1 - Configure Multi-Factor Authentication for applications
 
-In this exercise, we will show how to enable Multifactor Authentication  using TOTP (Time-based one-time password) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multifator Authentication, for the access to the SAP BTP and the Cloud Identity Services Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multifator Authentication, for the access to the SAP BTP and the Cloud Identity Services Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
 The configuration in the SCI cockpit is the same, only for a different application. You will use SAP Build Apps as application to configure the riskbased authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
