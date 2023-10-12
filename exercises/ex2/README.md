@@ -1,42 +1,78 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Security Recommendations regarding user access and authentication
 
-In this exercise, we will create...
+In this exercise you will learn about further security recommendations that help protect your accounts from risks related to access and authentication
 
-## Exercise 2.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
-
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+# Relevant Security Recommendations
+- BTP-IAS-0002
+- BTP-IAS-0003
+- BTP-IAS-0005
+- BTP-IAS-0017
 
 
+## Exercise 2.1 Identify obsolete users
 
-## Exercise 2.2 Sub Exercise 2 Description
+It makes sense to review on a regular basis whether the users actually need access to adminsitrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this excercise. One is the SAP BTP cockpit and and the the other one is the administrative console for Cloud Identity Services. In the TRAIL BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this excersice we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access.SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
-After completing these steps you will have...
+1. Open the administrative console for Cloud Identity Services from your bookmarks or like describt in the fist excercise. 
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+2. Choose the menu item "Users&Authorizations" --> "Administrators" and check the Users and their authorizations. The assignment of the following authorizations is critical.
+Manage them ideally as part of your identity lifecycle process.
+- Manage Corporate Identity Providers
+- Manage Tenant Configuration
+- Manage Users
+  
+<br><img src="/exercises/ex3/images/Cockpit_Users.png" width="70%">
 
-```
+3. Remove the Authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left.
 
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
+
+## Exercise 2.2 Defining a custom password policy
+
+By default, SAP Cloud Identity services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your password policy, based on your company's requirements.
+
+1. Open the administration console for Cloud Identity Services. 
+
+2. Choose the menu item "Applications & Resources" --> "Password Policies"
+<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="70%">
+
+3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
+<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="70%">
+
+4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
+💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
+
+5. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
+
+6. Set the "Required character groups count" to 3. SAP Cloud Identity services supports 4 types of character groups, uppercase letters, lowercase letters, numbers, and symbols. With this setting you specific how many different groups need to be part of the password. 
+
+7. Fill out the remaining fields of the "Custom Password Policy" dialog and click on "Add". Your new password policy is added to the top of the list as it has the highest strength
+
+You now know how to create a custom password policy that you can use for additional protection of your applications. 
+
+## Exercise 2.2 Keep public access to applications by self-registration disabled
+
+For business-to-consumer (public) scenarios, self-registration may be required. By default, self-registration is disabled (value = internal) and can be configured per application.
+Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend to keep self-registration disabled (value = internal). Actively manage use cases that require the function.
+
+1. Open the administration console for Cloud Identity Services.
+2. Under Applications and Resources, choose the Applications tile.
+3. Choose the application that you want to edit.
+4. Choose the Authentication and Access tab.
+5. Under AUTHENTICATION, choose User Application Access.
+6. Set the radio button for the users you want to allow to log on:
+- Public
+- Internal
+- Private
+7. Save your selection.
+8. If the application is updated, the system displays the message Application <name of application> updated.
+
+## Exercise 2.2 Keep public access to applications by self-registration disabled
+
 
 ## Summary
 
-You've now ...
+In this exercise you have learned how to identity potentially abandoned user accounts. In addition, you have seen how you can define custom password policies in Identity Authentication service
+
+
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
