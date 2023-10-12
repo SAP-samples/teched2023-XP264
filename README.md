@@ -35,7 +35,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-[Exercise 3 - Security recommendations regarding user access and authentication](exercises/ex3/)
+- [Exercise 3 - Security recommendations regarding user access and authentication](exercises/ex3/)
     - [Exercise 3.1 - Identify obsolete users](exercises/ex3/README.md#exercise-31-identify-obsolete-users)
     - [Exercise 3.2 - Defining a custom password policy](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
 - [Exercise 4 -Security Recommendations regarding the Audit Log](exercises/ex4/)
