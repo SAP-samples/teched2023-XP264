@@ -37,12 +37,9 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 2.2 - Defining a custom password policy](exercises/ex2#exercise-22---Defining-a-custom-password-policy)
     - [Exercise 2.3 - Keep public access to applications by self-registration disabled](exercises/ex2#exercise-23---Keep-public-access-to-applications-by-self---registration-disabled)
     - [Exercise 2.4 - Keep Social Sign-On disabled](exercises/ex2#exercise-24---Keep-Social-Sign---On-disabled)
-- [Exercise 3 - Security recommendations regarding user access and authentication](exercises/ex3/)
-    - [Exercise 3.1 - Identify obsolete users](exercises/ex3/README.md#exercise-31-identify-obsolete-users)
-    - [Exercise 3.2 - Defining a custom password policy](exercises/ex3/README.md#exercise-32-defining-a-custom-password-policy)
-- [Exercise 4 -Security Recommendations regarding the Audit Log](exercises/ex4/)
-    - [Exercise 4.1 - Configure the SAP Audit Log Viewer service](exercises/ex4/README.md#Exercise-41-configure-the-sap-audit-log-viewer-service)
-    - [Exercise 4.2 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex4/README.md#exercise-42-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
+- [Exercise 3 -Security Recommendations regarding the Audit Log](exercises/ex3/)
+    - [Exercise 3.1 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-31-configure-the-sap-audit-log-viewer-service)
+    - [Exercise 3.2 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
   
 **OR** Link to the Tutorial Navigator for example...
 
