@@ -76,7 +76,7 @@ You will see the entry page of the SAP Build App application.
 
 
 
-## Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps
+## Exercise 1.2 - Configure Multi Factor Authentication to access SAP Build Apps
 
 In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
