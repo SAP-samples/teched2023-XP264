@@ -82,7 +82,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/Singoutsapbuild.png" width="70%">
 
-2. Open the SCI Trail cockpit, either from your bookmark or from the BTP cockpit -> Instances and Subscriptions -> click on the Tile next to Cloud Identity Services
+2. Open the SCI Trail cockpit, either from your bookmark or from the BTP cockpit. In the BTP Cockpit navigate to  -> Instances and Subscriptions -> click on the Tile next to Cloud Identity Services
 
 <br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
 
