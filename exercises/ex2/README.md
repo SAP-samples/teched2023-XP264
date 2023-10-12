@@ -54,6 +54,8 @@ You now know how to create a custom password policy that you can use for additio
 For business-to-consumer (public) scenarios, self-registration may be required. By default, self-registration is disabled (value = internal) and can be configured per application.
 Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend to keep self-registration disabled (value = internal). Actively manage use cases that require the function.
 
+Procedure
+
 1. Open the administration console for Cloud Identity Services.
 2. Under Applications and Resources, choose the Applications tile.
 3. Choose the application that you want to edit.
@@ -68,10 +70,23 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 ## Exercise 2.2 Keep public access to applications by self-registration disabled
 
+For business-to-consumer (public) scenarios, social sign-on may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, social sign-on is disabled, set to Off, and can be configured per application.
+Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
+
+Procedure
+
+1. Sign in to the administration console for SAP Cloud Identity Services.
+2. Under Applications and Resources, choose the Applications tile.
+3. Choose the application that you want to edit.
+4. Choose the Authentication and Access tab.
+5. Under AUTHENTICATION, enable or disable social sign-on.
+6. Once the application has been updated, the system displays the message Application <name of application> updated.
+
+With Social Sign-On users can log on to the application via one of the social providers. They can see this option on the logon page. Which social identity providers logos appear on the logon page of the application depends on the configurations you have made.
 
 ## Summary
 
-In this exercise you have learned how to identity potentially abandoned user accounts. In addition, you have seen how you can define custom password policies in Identity Authentication service
+In this exercise you have learned how to identity potentially not needed user accounts. In addition, you have seen how you can define custom password policies, and how to check for several settings related to the authentication of users.
 
 
 
