@@ -1,13 +1,24 @@
 # Exercise 1 - Configure multifactor authentication for applications
 
-In this exercise, we will show how to configure risk based authentication for applications in a subaccount. In your company you can configure the riskbased authentication additionally for the access to the SAP BTP Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+In this exercise, we will show how to enable Multifactor Authentication  using TOTP (Time-based one-time password) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multifator Authentication, for the access to the SAP BTP and the Cloud Identity Services Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
 The configuration in the SCI cockpit is the same, only for a different application. You will use SAP Build Apps as application to configure the riskbased authentication.
+
+:bulb: **What is Multi-Factor Authentication (MFA)?**
+
+Multi-Factor Authentication can be described as “An authentication mechanism that requires more than one distinct authentication factor for successful authentication”.
+When a user authenticates, the user must provide valid credentials consisting of either one or multiple factors. It uses variety of factors and information, to verify the user identity. Many earlier systems use one factor, like a username/ password also called as basic authentication.
+Now to strengthen the authentication process we use MFA which acts as another layer of security for users and reduce the risk of unauthorized access.
+
+:bulb:**What is Time-based One-Time Password (TOTP)?**
+
+A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice- usually on a mobile device. It appears as six-digit numbers that regenerate every 30 seconds.
+
 
 # Relevant Security Recommendations
 - BTP-UAA-0001
 
 
-## Exercise 1.1 - Subscribe to SAP Build Apps and enter the application with your trail identity provider user
+## Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user
 
 
 1. Open the SAP BTP Cockpit and navigate to your global account. You should have bookmarked the URL in the Getting started excercise.
@@ -23,6 +34,7 @@ The configuration in the SCI cockpit is the same, only for a different applicati
 5. Now a wizzard opens and you follow the wizzard and click next after each entry.
 
 Check prerequisites
+
 <br><img src="/exercises/ex1/images/booster2.png" width="70%">
 
 Select Scenario - select your subaccount
@@ -33,7 +45,7 @@ Configure subbaccount - enter your trail subaccount
 
 <br><img src="/exercises/ex1/images/Booster4.png" width="70%">
 
-Add Users - enter your email adresss as logon ID for Administrators and Developers
+Add Users - enter your email adresss for Administrators and Developers
 
 <br><img src="/exercises/ex1/images/Booster5.png" width="70%">
 
@@ -53,7 +65,7 @@ Go to Instance and Subscriptions in your Subaccount - Click on the tile to open 
 
 <br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
-A Logon page opens. Use your Trial Account Identity Provider to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider.
+A Logon page opens. Use your Trial Account Identity Provider to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
 
 <br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
@@ -77,7 +89,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 <br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
   
 
-3. In the pop-up window Sing-in with your email and password to the SCI Cockpit.
+3. In the pop-up window Sign-In with your email and password to the SCI Cockpit.
    
 <br><img src="/exercises/ex1/images/SigninSCITRIAL.png" width="70%">
 
@@ -98,23 +110,34 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
  <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
 
-10. Now change the Default Authentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTF . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on SAP BTP which use the XSUAAA for authentication require a Time-based One-time Password Algorithmus (TOTP) as second factor.
+10. Change the Default Authentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTF . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on SAP BTP which use the XSUAAA for authentication require a Time-based One-time Password Algorithmus (TOTP) as second factor.
 A Time-based One-Time Password (TOTP) is a numerical code which is generated with a standard algorithm that uses the current time and a key as input. It is user friendly and available offline in a generator application of the user’s choice- usually on a mobile device. It appears as six-digit numbers that regenerate every 30 seconds.
     
 <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_MFA.png" width="70%">
 
-The tenant Administrator must configure the Two-Factor Authentication in IAS in the admin console for any user.
-Go to User Management -> Select the <admin user> who needs the MFA enabled.
-Select the user -> Go to Authentication -> Multi-Factor Authentication here, I selected my user.
-Set MFA status as ON
+Once the configuration is complete, the system prompts the user to select any of the available options after the initial username and password are provided.
+
 
 ## Exercise 1.3 - Enable MFA for your User
 
-The tenant Administrator must configure the Two-Factor Authentication in IAS in the admin console for any user.
-Go to User Management -> Select the <admin user> who needs the MFA enabled.
-Select the user -> Go to Authentication -> Multi-Factor Authentication here, I selected my user.
-Set MFA status as ON
+Navigate to your Users Profile page in SCI.
 
+The user profile shows you the authentication methods setup for a user, you can access it through the link in a productive envrionment: https://<tenant>.accounts.ondemand.com/ui/protected/profilemanagement
+
+Here, in the Trial envrionment, the path is the following: 
+Add the **ui/protected/profilemanagement** in your browser after https://<Trialtenant>.trial-accounts.ondemand.com/
+
+Here you can add/remove your authentication method, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).
+
+Open the Multi-Facor Auhentication.
+
+Scan the QR code using the authenticator app on your device, or enter the key manually.
+
+Once you have scanned or entered the key, enter the passcode generated by the authenticator app on your device below and click "Activate"
+
+Now you have a device configured for TOTP two-factor authentication
+
+To get back to the SCI administrative cockpit add add **admin** in your browser after https://<Trialtenant>.trial-accounts.ondemand.com/  or use your bookmark.
 
 
 
