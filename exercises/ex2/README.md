@@ -49,7 +49,7 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 You now know how to create a custom password policy that you can use for additional protection of your applications. 
 
-## Exercise 2.2 Keep public access to applications by self-registration disabled
+## Exercise 2.3 Keep public access to applications by self-registration disabled
 
 For business-to-consumer (public) scenarios, self-registration may be required. By default, self-registration is disabled (value = internal) and can be configured per application.
 Corporate identity lifecycle processes make self-registration undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios. We recommend to keep self-registration disabled (value = internal). Actively manage use cases that require the function.
@@ -68,7 +68,7 @@ Procedure
 7. Save your selection.
 8. If the application is updated, the system displays the message Application <name of application> updated.
 
-## Exercise 2.2 Keep public access to applications by self-registration disabled
+## Exercise 2.4 Keep Social Sign-On disabled
 
 For business-to-consumer (public) scenarios, social sign-on may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, social sign-on is disabled, set to Off, and can be configured per application.
 Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
