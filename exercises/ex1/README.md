@@ -57,7 +57,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/Booster 7.png" width="70%">
 
-12. Sucess - Navigate to the Subaccount 
+12. Success - Navigate to the Subaccount 
 
 <br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
 
