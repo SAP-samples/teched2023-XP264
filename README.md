@@ -27,7 +27,7 @@ Now you are ready to start the excercises.
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - Configuring multifactor authentication for applications](exercises/ex1/)
+- [Exercise 1 - Enable Multi-Factor Authentication for applications](exercises/ex1/)
     - [Exercise 1.1 - Subscribe to SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11-Subscribe-to-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
     - [Exercise 1.2 - Configuring mutlifactor authentication to access SAP Build Apps](exercises/ex1#exercise-12-Configuring-mutlifactor-authentication-to-access-SAP-Build-Apps)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
