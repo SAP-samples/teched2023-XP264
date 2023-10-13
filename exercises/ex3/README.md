@@ -11,9 +11,13 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 
 In this excercise you will subscribe to the audit.log viewer service
 
-1. Open the SAP BTP Cockpit. 
+1. Open the SAP BTP Cockpit.
+
+  <br><img src="/exercises/ex3/images/audit0.png" width="70%">
 
 2. Navigate to the subaccount by clicking on the tile. Go to Service Marketplace.
+
+ <br><img src="/exercises/ex3/images/audit02.png" width="70%">
 
 3. Enter "audit" in the search field.
 
