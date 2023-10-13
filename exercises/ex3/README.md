@@ -68,23 +68,22 @@ To do so click on the **"Edit"**-button.
 
 8. In the edit mode search under role name for the two roles called **"Auditlog_Auditor"**.
 
-<br><img src="/exercises/ex4/images/AssignRolestoRoleCollection2.png" width="70%">
+<br><img src="/exercises/ex3/images/audit9.png" width="70%">
 
 9. Mark the two roles called **"Auditlog_Auditor"** and click the "Add"-button. 
 
-<br><img src="/exercises/ex4/images/AssignRolestoRoleCollection3.png" width="70%">
+<br><img src="/exercises/ex3/images/audit10.png" width="70%">
 
 11. Go to the **"Users"** section and enter the email address of your **SAP Cloud Identity Service user**. Enter it in the **"ID"** field and select the entry from the list.
 
-<br><img src="/exercises/ex4/images/AssignUsertoRoleCollection1.png" width="70%"> 
+<br><img src="/exercises/ex3/images/audit12.png" width="70%">
  
 12. Click the **"save"** button to save your changes.
 
-<br><img src="/exercises/ex4/images/AssignUsertoRoleCollection2.png" width="70%"> 
+<br><img src="/exercises/ex3/images/audit13.png" width="70%"> 
  
 13. The result will be that the user with the assigned authorizations can use the **Audit Log Viewer service**. You need to be logged into the cockpit with this user to be able to see the Viewer in the next step.
 
-<br><img src="/exercises/ex4/images/AssignUsertoRoleCollection3.png" width="70%">
  
 
 
