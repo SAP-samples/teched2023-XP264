@@ -23,7 +23,7 @@ In this excercise you will subscribe to the audit.log viewer service
 
 <br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
-4. Select the Audit Log Viewer Service and subscribe to it. This is done by using the create button in the uper right corner.
+4. Select the Audit Log Viewer Service and subscribe to it. This is done by using the create button in the uper right corner. The Audit Log Mangement Service can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it foe this excercise.
 
 <br><img src="/exercises/ex3/images/audit2.png" width="70%">
 
