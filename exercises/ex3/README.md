@@ -24,7 +24,7 @@ In this excercise you will subscribe to the **Audit Log Viewer Service**
 
 <br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
-4. Now subscribe to it. This is done by using the create button in the uper right corner. The **Audit Log Mangement Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it in this excercise.
+4. Now subscribe to it. This is done by using the **create**-button in the uper right corner. The **Audit Log Mangement Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it in this excercise.
 
 <br><img src="/exercises/ex3/images/audit2.png" width="70%">
 
@@ -50,7 +50,7 @@ In this excercise you will subscribe to the **Audit Log Viewer Service**
 
 2. Go to the **trail subaccount** by clicking on the tile
 
-3. Choose the menu item **"Security" --> "Role Collections"** and click on the **"+"** button to create a new role collection
+3. Choose the menu item **"Security" --> "Role Collections"** and click on the **"+"**-button to create a new role collection
 
 <br><img src="/exercises/ex3/images/audit6.png" width="70%">
 
