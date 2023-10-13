@@ -23,7 +23,7 @@ In this excercise you will subscribe to the audit.log viewer service
 
 <br><img src="/exercises/ex3/images/audit2.png" width="70%">
 
-5. A windows pops up. Clikc on create.
+5. A windows pops up. Click on create.
 
 <br><img src="/exercises/ex3/images/audit3.png" width="70%">
 
