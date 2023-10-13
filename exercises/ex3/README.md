@@ -19,12 +19,22 @@ In this excercise you will subscribe to the audit.log viewer service
 
 <br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
-4. Select the Audit Log Viewer Service and subscripe to it.
+4. Select the Audit Log Viewer Service and subscribe to it. This is done by using the create button in the uper right corner.
 
 <br><img src="/exercises/ex3/images/audit2.png" width="70%">
+
+5. A windows pops up. Clikc on create.
+
 <br><img src="/exercises/ex3/images/audit3.png" width="70%">
+
+6. Navigte to **View Subscriptions**
+   
 <br><img src="/exercises/ex3/images/audit4.png" width="70%">
+
+8. Under Instances and Subscriptions you can now see the new Application ** Audit Log Viewer Service++ and the link to the application next to it.
+   
 <br><img src="/exercises/ex3/images/audit5.png" width="70%">
+
 
 ## Exercise 3.2 Configure the SAP Audit Log Viewer service
 
