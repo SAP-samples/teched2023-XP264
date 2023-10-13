@@ -7,12 +7,32 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 # Relevant Security Recommendations
 - BTP-AUD-0001
 
+## Exercise 3.0 Subscribe to the SAP Audit Log Viewer service
+
+In this excercise you will subscribe to the audit.log viewer service
+
+1. Open the SAP BTP Cockpit. 
+
+2. Navigate to the subaccount by clicking on the tile. Go to Service Marketplace.
+   
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%">
+
+3. Enter "audit" in the search field.
+
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%">
+  
+4. Select the Audit Log Viewer Service and subscripe to it.
+
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
+<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
 
 ## Exercise 3.1 Configure the SAP Audit Log Viewer service
 
  In this exercise you will configure the SAP Audit Log Viewer service to see audit relevant log entries.
 
-1. Open the SAP BTP Cockpit. You will find the URL on the [Getting Started](/exercises/ex0) page.
+1. Open the SAP BTP Cockpit. 
 
 2. Go to the subaccount by clicking on the tile
 
