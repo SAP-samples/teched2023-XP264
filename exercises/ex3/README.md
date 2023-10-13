@@ -15,11 +15,11 @@ In this excercise you will subscribe to the **Audit Log Viewer Service**
 
   <br><img src="/exercises/ex3/images/audit0.png" width="70%">
 
-2. Navigate to the subaccount by clicking on the tile. Go to Service Marketplace.
+2. Navigate to your **trail subaccount** by clicking on the tile. Go to **Service Marketplace**.
 
  <br><img src="/exercises/ex3/images/audit02.png" width="70%">
 
-3. Enter "audit" in the search field. Select the **Audit Log Viewer Service** and click on it.
+3. Enter **"audit"** in the search field. Select the **Audit Log Viewer Service** and click on it.
 
 <br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
@@ -44,38 +44,44 @@ In this excercise you will subscribe to the **Audit Log Viewer Service**
 
  In this exercise you will configure the SAP Audit Log Viewer service to see audit relevant log entries.
 
-1. Open the SAP BTP Cockpit. 
+1. Open the **SAP BTP Cockpit**. 
 
-2. Go to the subaccount by clicking on the tile
+2. Go to the **trail subaccount** by clicking on the tile
 
 3. Choose the menu item "Security" --> "Role Collections" and click on the "+" button to create a new role collection
 
 <br><img src="/exercises/ex3/images/audit6.png" width="70%">
 
-4. In the pop-up window enter the role collection name "Audit Log Viewer". In the description enter "View the audit relevant logs in the audit log viewer".
+4. In the pop-up window enter the role collection name **"Audit Log Viewer"**. In the description enter "View the audit relevant logs in the audit log viewer".
 Click on the "Create"- button.
 
 <br><img src="/exercises/ex3/images/audit7.png" width="70%">
 
-5. Now you can see the Audit Log Viewer role collection together with the other role collections. Click on ">" on the right side of the newly created role collection to open the details. 
+5. Now you can see the **Audit Log Viewer** role collection together with the other role collections. Click on ">" on the right side of the newly created role collection to open the details. 
 
-6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called " Auditlog_Auditor" to the role collection.
+6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called **" Auditlog_Auditor"** to the role collection.
 To do so click on the "Edit"-button.
+
 <br><img src="/exercises/ex3/images/audit8.png" width="70%">
 
-7. In the edit mode search under role name for the two roles called "Auditlog_Auditor".
+8. In the edit mode search under role name for the two roles called **"Auditlog_Auditor"**.
+
 <br><img src="/exercises/ex4/images/AssignRolestoRoleCollection2.png" width="70%">
 
-8. Mark the two roles called "Auditlog_Auditor" and click the "Add"-button. 
+9. Mark the two roles called **"Auditlog_Auditor"** and click the "Add"-button. 
+
 <br><img src="/exercises/ex4/images/AssignRolestoRoleCollection3.png" width="70%">
 
-9. Go to the "Users" section and enter the email address of the user "TechEdIAS@bestrun.com". Enter it in the "ID" field and select the entry from the list.
+11. Go to the **"Users"** section and enter the email address of your **SAP Cloud Identity Service user**. Enter it in the "ID" field and select the entry from the list.
+
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection1.png" width="70%"> 
  
-10. Click the "save" button to save your changes.
+12. Click the "save" button to save your changes.
+
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection2.png" width="70%"> 
  
-11. The result will be that the user with the assigned authorizations can use the Audit Log Viewer service. You need to be logged into the cockpit with this user to be able to see the Viewer in the next step.
+13. The result will be that the user with the assigned authorizations can use the **Audit Log Viewer service**. You need to be logged into the cockpit with this user to be able to see the Viewer in the next step.
+
 <br><img src="/exercises/ex4/images/AssignUsertoRoleCollection3.png" width="70%">
  
 
