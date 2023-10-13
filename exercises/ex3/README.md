@@ -9,9 +9,9 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 
 ## Exercise 3.1 Subscribe to the SAP Audit Log Viewer service
 
-In this excercise you will subscribe to the audit.log viewer service
+In this excercise you will subscribe to the **Audit Log Viewer Service**
 
-1. Open the SAP BTP Cockpit.
+1. Open the **SAP BTP Cockpit**.
 
   <br><img src="/exercises/ex3/images/audit0.png" width="70%">
 
@@ -19,11 +19,11 @@ In this excercise you will subscribe to the audit.log viewer service
 
  <br><img src="/exercises/ex3/images/audit02.png" width="70%">
 
-3. Enter "audit" in the search field.
+3. Enter "audit" in the search field. Select the **Audit Log Viewer Service** and click on it.
 
 <br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
-4. Select the Audit Log Viewer Service and subscribe to it. This is done by using the create button in the uper right corner. The Audit Log Mangement Service can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it foe this excercise.
+4. Now subscribe to it. This is done by using the create button in the uper right corner. The **Audit Log Mangement Service** can later be used to configure the retention period and to retrieve the logfiles for your SIEM system. We don´t need it foe this excercise.
 
 <br><img src="/exercises/ex3/images/audit2.png" width="70%">
 
@@ -35,7 +35,7 @@ In this excercise you will subscribe to the audit.log viewer service
    
 <br><img src="/exercises/ex3/images/audit4.png" width="70%">
 
-8. Under Instances and Subscriptions you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
+8. Under **Instances and Subscriptions** you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
    
 <br><img src="/exercises/ex3/images/audit5.png" width="70%">
 
