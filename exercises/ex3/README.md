@@ -7,28 +7,26 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 # Relevant Security Recommendations
 - BTP-AUD-0001
 
-## Exercise 3.0 Subscribe to the SAP Audit Log Viewer service
+## Exercise 3.1 Subscribe to the SAP Audit Log Viewer service
 
 In this excercise you will subscribe to the audit.log viewer service
 
 1. Open the SAP BTP Cockpit. 
 
 2. Navigate to the subaccount by clicking on the tile. Go to Service Marketplace.
-   
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%">
 
 3. Enter "audit" in the search field.
 
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%">
+<br><img src="/exercises/ex3/images/audit1.png" width="70%">
   
 4. Select the Audit Log Viewer Service and subscripe to it.
 
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
-<br><img src="/exercises/ex3/images/CreateRoleCollection0.png" width="70%"> 
+<br><img src="/exercises/ex3/images/audit2.png" width="70%">
+<br><img src="/exercises/ex3/images/audit3.png" width="70%">
+<br><img src="/exercises/ex3/images/audit4.png" width="70%">
+<br><img src="/exercises/ex3/images/audit5.png" width="70%">
 
-## Exercise 3.1 Configure the SAP Audit Log Viewer service
+## Exercise 3.2 Configure the SAP Audit Log Viewer service
 
  In this exercise you will configure the SAP Audit Log Viewer service to see audit relevant log entries.
 
@@ -37,18 +35,19 @@ In this excercise you will subscribe to the audit.log viewer service
 2. Go to the subaccount by clicking on the tile
 
 3. Choose the menu item "Security" --> "Role Collections" and click on the "+" button to create a new role collection
-<br><img src="/exercises/ex4/images/CreateRoleCollection0.png" width="70%">
+
+<br><img src="/exercises/ex3/images/audit6.png" width="70%">
 
 4. In the pop-up window enter the role collection name "Audit Log Viewer". In the description enter "View the audit relevant logs in the audit log viewer".
 Click on the "Create"- button.
-<br><img src="/exercises/ex4/images/CreateRoleCollection1.png" width="70%">
+
+<br><img src="/exercises/ex3/images/audit7.png" width="70%">
 
 5. Now you can see the Audit Log Viewer role collection together with the other role collections. Click on ">" on the right side of the newly created role collection to open the details. 
-<br><img src="/exercises/ex4/images/CreateRoleCollection2.png" width="70%">
 
 6. In the extended window you can assign roles and users to the role collection. Start assigning the two roles of the audit log viewer service called " Auditlog_Auditor" to the role collection.
 To do so click on the "Edit"-button.
-<br><img src="/exercises/ex4/images/AssignRolestoRoleCollection1.png" width="70%">
+<br><img src="/exercises/ex3/images/audit8.png" width="70%">
 
 7. In the edit mode search under role name for the two roles called "Auditlog_Auditor".
 <br><img src="/exercises/ex4/images/AssignRolestoRoleCollection2.png" width="70%">
@@ -67,7 +66,7 @@ To do so click on the "Edit"-button.
  
 
 
-## Exercise 3.2 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
+## Exercise 3.3 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
 
 You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
 Now you learn how to download them via the User Interface.
