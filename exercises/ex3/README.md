@@ -27,11 +27,11 @@ In this excercise you will subscribe to the audit.log viewer service
 
 <br><img src="/exercises/ex3/images/audit3.png" width="70%">
 
-6. Navigte to **View Subscriptions**
+6. Navigte to **View Subscription**
    
 <br><img src="/exercises/ex3/images/audit4.png" width="70%">
 
-8. Under Instances and Subscriptions you can now see the new Application ** Audit Log Viewer Service++ and the link to the application next to it.
+8. Under Instances and Subscriptions you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
    
 <br><img src="/exercises/ex3/images/audit5.png" width="70%">
 
