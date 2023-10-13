@@ -7,6 +7,7 @@ Therefore, we recommend downloading audit logs on a regular basis and save them,
 # Relevant Security Recommendations
 - BTP-AUD-0001
 
+
 ## Exercise 3.1 Subscribe to the SAP Audit Log Viewer service
 
 In this excercise you will subscribe to the **Audit Log Viewer Service**
@@ -38,6 +39,7 @@ In this excercise you will subscribe to the **Audit Log Viewer Service**
 8. Under **Instances and Subscriptions** you can now see the new Application **Audit Log Viewer Service** and the link to the application next to it.
    
 <br><img src="/exercises/ex3/images/audit5.png" width="70%">
+
 
 
 ## Exercise 3.2 Configure the SAP Audit Log Viewer service
