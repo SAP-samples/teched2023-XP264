@@ -18,12 +18,12 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 - BTP-UAA-0001
 
 
-## Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user
+## Exercise 1.1 - Setup SAP Build Apps and enter the application with your trial identity provider user
 
 
 1. Open the SAP BTP Cockpit and navigate to your global account. You should have bookmarked the URL in the Getting started excercise.
 
-2. Navigate to Boosters
+2. Navigate to **Boosters**
 
 <br><img src="/exercises/ex1/images/GA-Boosters.png" width="70%">
 
@@ -41,7 +41,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/booster3.png" width="70%">
 
-8. Configure subbaccount - enter your trail subaccount
+8. Configure subbaccount - enter your trial subaccount
 
 <br><img src="/exercises/ex1/images/Booster4.png" width="70%">
 
@@ -53,25 +53,29 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/booster6.png" width="70%">
 
-11. Progressing -takes a bit
+11. Progressing - this takes a bit
 
 <br><img src="/exercises/ex1/images/Booster 7.png" width="70%">
 
-12. Success - Navigate to the Subaccount 
+12. **Success** - Navigate to the Subaccount 
 
 <br><img src="/exercises/ex1/images/Boostersuccess.png" width="70%">
 
-13. Go to Instance and Subscriptions in your Subaccount - Click on the tile to open SAP Build Apps 
+13. Go to **Instance and Subscriptions** in your Subaccount - Click on the tile to open **SAP Build Apps**
 
 <br><img src="/exercises/ex1/images/openSAPBulidApps.png" width="70%">
 
-14. A Logon page opens. Use your Trial Account Identity Provider to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
+14. A Logon page opens. Use your **Trial Account Identity Provider** to logon. There is the Default Identity Provider ( SAP ID Service ) shown and your Trail Account Identity provider (SCI - SAP Cloud Identity).
 
 <br><img src="/exercises/ex1/images/logonSAPBulidApp.png" width="70%">
 
 15. The Logon should be succesfull as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the SAP Build App application.
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
+
+16. **Sign-out** from SAP Build Apps.
+
+<br><img src="/exercises/ex1/images/SAPBUILDsignout.png" width="70%">
 
 
 ## Exercise 1.2 - Configure Multi Factor Authentication to access SAP Build Apps
