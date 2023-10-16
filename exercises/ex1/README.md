@@ -169,5 +169,5 @@ In this exercise you learned how to setup SAP Build and how to enable Multi-Fact
 
 
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 2 - Security Recommendations regarding user access and authentication](../ex2/README.md)
 
