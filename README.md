@@ -20,6 +20,8 @@ The requirements to follow the exercises in this repository are active Trial Acc
 **Second task is to activate your SAP Cloud Identity Services Trial. Follow the instrustions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
+**Install on your mobile device a time-based authentication application (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).**
+
 Now you are ready to start the excercises.
 
 ## Exercises
