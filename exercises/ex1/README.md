@@ -73,7 +73,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
-16. **Sign-out** from SAP Build Apps.
+16. **Sign-out** from SAP Build Apps and close the browser window.
 
 <br><img src="/exercises/ex1/images/SAPBUILDsignout.png" width="70%">
 
@@ -82,11 +82,11 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 In exercise 1.1 we enabled SAP Build Apps and the configured users are now able to authenticate with the custom identity provider when they try to access the application. However, we want to restrict the access to the application and only allow access with a second authentication factor.
 
-1. Logout of the SAP Build application and close the Browser window.
+1. Logout of the SAP Build application and close the Browser window, if you haven`t done already.
 
 <br><img src="/exercises/ex1/images/Singoutsapbuild.png" width="70%">
 
-2. Open the SCI Trail cockpit, either from your bookmark or from the BTP cockpit. In the BTP Cockpit navigate to  -> Instances and Subscriptions -> click on the Tile next to Cloud Identity Services
+2. Open the **SCI administrative console**, either from your bookmark or from the BTP cockpit (In the BTP Cockpit navigate to  -> **Instances and Subscriptions** -> click on the Tile next to Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
 
@@ -94,47 +94,49 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
    
 <br><img src="/exercises/ex1/images/SigninSCITRIAL.png" width="70%">
 
-4. In the SCI Cockpit navigate to Applications & Resources -> Applications
+4. In the SCI Cockpit navigate to **Applications & Resources -> Applications**
 
 <br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
 
-5. On the left side you see Bundled and System Applications. In Bundeled Applications we see the Application XSUAA_trail. Click on it to see the confguriation data of this application.
+5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **XSUAA_trial**. Click on it to see the confguration data of this application.
+
+:bulp:  XSUAA is ....
    
-6. In the configuration screen of the XSUAA_trail application navigate to Authentication & Access
+6. In the configuration screen of the XSUAA_trial application navigate to **Authentication & Access**
    
 <br><img src="/exercises/ex1/images/SCItrailXSUAA_AuAcc.png" width="70%">
 
-7. Now you can see the line where Risk-Based Authentication can be configured. Click on the little arrow on the right.
+7. Now you can see the line where **Risk-Based Authentication** can be configured. Click on the little arrow on the right.
 
 <br><img src="/exercises/ex1/images/XSUAA_trial_app_SCI.png" width="70%">
 
-8. In the Risk-Based Authentication frame you have the possiblity to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
+8. In the **Risk-Based Authentication** frame you have the possiblity to create Authentication Rules and you can see the Default Authentication Rule, which is **Allow**.
 
  <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_default.png" width="70%">
 
-9. Change the Default Authentication Rule to Default Action = Two-Factor Autnetication and Two-Factor Method = TOTP . Don´t forget to save at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
+9. Change the Default Authentication Rule to **Default Action = Two-Factor Autnetication** and **Two-Factor Method = TOTP**. Don´t forget to **save** at the top right of the page the new configuration. Now the access to all applications on your SAP BTP subaccount which use the XSUAAA for authentication require a Time-based One-time Password (TOTP) as second factor.
 
 <br><img src="/exercises/ex1/images/SCI_XSUAA_trial_RBA_MFA.png" width="70%">
 
-Once the configuration is complete, the system prompts the user to select any of the available options after the initial username and password are provided.
+Once the configuration is complete, the system prompts the user to select any of the available options after the initial username and password are provided. Next step is to enable the users to use MFA.
 
 ## Exercise 1.3 - Enable MFA for your User
 
 1. Navigate to your users profile page in SCI.
 
-2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trail envrionment: 
+2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial envrionment: 
 
-**https://<trialtenant>.trail-accounts.ondemand.com/ui/protected/profilemanagement**
+**https://trialtenant.trial-accounts.ondemand.com/ui/protected/profilemanagement**
 
-Add the **ui/protected/profilemanagement** in your browser after **https://<Trialtenant>.trial-accounts.ondemand.com/**
+Add the **ui/protected/profilemanagement** in your browser after **https://trialtenant.trial-accounts.ondemand.com/**
 
 Here you can add/remove your authentication method, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).
 
-3. Open the Multi-Facor Auhentication. Click on Activate TOTP Two-Factor Authentication.
+3. Open the Multi-Facor Auhentication. Click on **Activate TOTP Two-Factor Authentication**.
 
 <br><img src="/exercises/ex1/images/userprofile1.png" width="70%">
 
-4. Scan the QR code using the authenticator app on your device, or enter the key manually. Once you have scanned or entered the key, enter the passcode generated by the authenticator app on your device below and click "Activate"
+4. Scan the QR code using the authenticator app on your device, or enter the key manually. Once you have scanned or entered the key, enter the passcode generated by the authenticator app on your device below and click **"Activate"**.
 
 <br><img src="/exercises/ex1/images/userprofile2.png" width="70%">
 
@@ -142,9 +144,9 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/userprofile3.png" width="70%">
 
-6. To get back to the SCI administrative cockpit add add **admin** in your browser after **https://<Trialtenant>.trial-accounts.ondemand.com/** or use your bookmark.
+6. To get back to the SCI administrative cockpit add add **admin** in your browser after **https://trialtenant.trial-accounts.ondemand.com/** or use your bookmark.
 
-7. Navigate to the SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application
+7. Navigate to the **SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application**
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSOpen.png" width="70%">
 
@@ -152,11 +154,11 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSLogon1.png" width="70%">
 
-9. A Pop-Up will ask for a passcode. To proceed, please enter the time-based passcode generated by your mobile device for the application. Then Continue
+9. A Pop-Up will ask for a **passcode**. Open the **authenticatior app** you are using on our mobile device. To proceed, please enter the time-based passcode generated by your mobile device for the application. Then Continue.
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSPasscode.png" width="70%">
 
-10. Success ! The SAP Build App opens.
+10. **Success!** The SAP Build App opens.
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
