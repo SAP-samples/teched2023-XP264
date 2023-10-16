@@ -17,6 +17,8 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
 3. Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is not enabled, click on Enable Cloud Foundry. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental; information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
 
+<br>![](/exercises/ex0/images/audit0.png)
+
 <br>![](/exercises/ex0/images/Subaccount%20Overview.png)
 
 4. Check the Trust Configuration for application users
