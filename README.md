@@ -8,16 +8,16 @@ This repository contains the material for the SAP TechEd 2023 session called XP2
 
 ## Overview
 
-In this session attendees will learn about the security recommendation for BTP services and how to implement them. The SAP BTP Security Recommendations are available in the SAP Help Portal in the sections for the SAP Business Technology Platform.
+In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are active Trail Accounts for SAP BTP and for the SAP Cloud Identity Services.
+The requirements to follow the exercises in this repository are active Trial Accounts for SAP BTP and for the SAP Cloud Identity Services.
 
-**First you have to get your SAP BTP Trail Account. Follow the instructions:** 
+**First you have to get your SAP BTP Trial Account. Follow the instructions:** 
 [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 
-**Second task is to activate your SAP Cloud Identity Services Trail. Follow the instrustions in this blog:** 
+**Second task is to activate your SAP Cloud Identity Services Trial. Follow the instrustions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
 Now you are ready to start the excercises.
@@ -26,7 +26,7 @@ Now you are ready to start the excercises.
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Enable Multi-Factor Authentication for applications](exercises/ex1/)
-    - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trail identity provider user](exercises/ex1#exercise-11---Setup-SAP-Build-Apps-and-enter-the-application-with-your-trail-identity-provider-user)
+    - [Exercise 1.1 - Setup SAP Build Apps and enter the application with your trial identity provider user](exercises/ex1#exercise-11---Setup-SAP-Build-Apps-and-enter-the-application-with-your-trial-identity-provider-user)
     - [Exercise 1.2 - Configure Multi-Factor Authentication to access SAP Build Apps](exercises/ex1#exercise-12---Configure-Multi-Factor-Authentication-to-access-SAP-Build-Apps)
     - [Exercise 1.3 - Enable MFA for your User](exercises/ex1#exercise-13---Enable-MFA-for-your-User)
     
