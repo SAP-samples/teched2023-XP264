@@ -122,7 +122,7 @@ Procedure
 
 3. Choose the **"application"** that you want to edit.
 4. Choose the **"Authentication and Access"** tab.
-5. Under **"AUTHENTICATION"**, choose **"User Application Access"**.
+5. Under **"Authentication"**, choose **"User Application Access"**.
 
 <br><img src="/exercises/ex2/images/ex2selfreg2.png" width="70%">
 
@@ -153,7 +153,7 @@ Procedure
 
 3. Choose the **"application"** that you want to edit.
 4. Choose the **"Authentication and Access"** tab.
-5. Under **"AUTHENTICATION"**, enable or disable **"social sign-on"** using the radio-button. Per default it should be disabled.
+5. Under **"Authentication"**, enable or disable **"Social Sign-On"** using the radio-button. Per default it should be disabled.
 
 <br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
 
@@ -167,4 +167,4 @@ In this exercise you have learned how to identity potentially not needed user ac
 
 
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Security Recommendations regarding the Audit Log ](../ex3/README.md)
