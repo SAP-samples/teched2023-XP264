@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called XP2
 
 ## Overview
 
-In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. These recommendations help you evaluate the security of the configuration of SAP BTP. 
+In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. It is a list with SAP recommendations for the configuration of SAP BTP services to help customers meet their compliance goals and secure their business.
 
 ## Requirements
 
@@ -20,7 +20,7 @@ The requirements to follow the exercises in this repository are active Trial Acc
 **Second task is to activate your SAP Cloud Identity Services Trial. Follow the instrustions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
-**Install on your mobile device a time-based authentication application (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).**
+**Third task is to install on your mobile device a time-based authentication application (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).**
 
 Now you are ready to start the excercises.
 
