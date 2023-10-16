@@ -8,7 +8,7 @@ This repository contains the material for the SAP TechEd 2023 session called XP2
 
 ## Overview
 
-In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform.
+In this session attendees will learn about the security recommendation for BTP services and how to implement them. The [SAP BTP Security Recommendations](https://help.sap.com/docs/btp/sap-btp-security-recommendations-c8a9bb59fe624f0981efa0eff2497d7d/sap-btp-security-recommendations) are available in the SAP Help Portal in the sections for the SAP Business Technology Platform. These recommendations help you evaluate the security of the configuration of SAP BTP. 
 
 ## Requirements
 
