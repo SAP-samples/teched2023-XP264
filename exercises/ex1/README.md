@@ -100,7 +100,7 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 5. On the left side you see Bundled and System Applications. In Bundled Applications we see the Application **XSUAA_trial**. Click on it to see the confguration data of this application.
 
-💡  XSUAA is a service broker for the OAuth authorization server provided by the Cloud Foundry UAA. It offers authentication and authorization services for micro service style applications. It is used by almost all applications running on SAP BTP in the cloud foundry environment. When we configure Two-factor authentication for this application, all applications running on SAP BTP in the cloud foundry envrionment, will have to provide a second factor for authentication. 
+💡  **XSUAA** is a service broker for the OAuth authorization server provided by the Cloud Foundry UAA. It offers authentication and authorization services for micro service style applications. It is used by almost all applications running on SAP BTP in the cloud foundry environment. When we configure Two-factor authentication for this application, all applications running on SAP BTP in the cloud foundry envrionment, will have to provide a second factor for authentication. 
    
 6. In the configuration screen of the XSUAA_trial application navigate to **Authentication & Access**
    
