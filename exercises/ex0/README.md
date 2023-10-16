@@ -15,7 +15,7 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 2. You will see one main button on the welcome screen of the SAP BTP Cockpit. Click on **Go To Your Trial Account** to navigate to your global account.  
    Bookmark the link for fast and quick access to the **BTP cockpit**.
 
-3. Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is not enabled, click on Enable Cloud Foundry. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental; information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
+3. Navigate to the subaccount and check if the Cloud Foundry runtime is enabled. If it is **not** enabled, click on Enable Cloud Foundry. This may take some seconds. This page displays the current state of the subaccount. You can manage your subscriptions and jump into the different runtime environments. It also shows you fundamental information of the Cloud Foundry environment, such as the API endpoint and the available spaces.
 
 <br>![](/exercises/ex0/images/audit0.png)
 
