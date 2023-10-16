@@ -26,7 +26,7 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
 
-5. Now we add the newly created user to the Administrators. Choose the menu item **"Users&Authorizations" --> "Administrators".**
+5. Now we add the newly created user to the Administrators. Choose the menu item **"Users & Authorizations" --> "Administrators".**
 
 <br><img src="/exercises/ex2/images/ex22.png" width="70%">
 
@@ -46,16 +46,18 @@ You will manage them ideally as part of your identity lifecycle process.
   
 <br><img src="/exercises/ex2/images/ex200user4.png" width="70%">
 
-8. Remove the Authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Thn clikc on the **Save**-button.
+8. Remove the Authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Thn click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
 
-9. Noy you have to confirm your changes. Click on the **Okay**-button. Then the only administrator left will be your trial account user.
+9. Now you have to confirm your changes. Click on the **Okay**-button. The only administrator left will be your trial account user.
 
 <br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
 
-Then the only administrator left will be your trial account user. You cannot remove the authorizations of this user completely, as he is the only one left. **Manage Tenant Configuration**
+You cannot remove the authorizations of this user completely, as he is the only one left. **Manage Tenant Configuration**
 and **Manage tenant configuration and authorization assignment to users** is therefore greyed out. 
+
+
 
 ## Exercise 2.2 Defining a custom password policy
 
@@ -63,22 +65,45 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 1. Open the administration console for Cloud Identity Services. 
 
-2. Choose the menu item "Applications & Resources" --> "Password Policies"
-<br><img src="/exercises/ex2/images/Menu_Item_Password_Policies.png" width="70%">
+<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
-<br><img src="/exercises/ex2/images/Custom_Password_Policy.png" width="70%">
+2. Choose the menu item **"Applications & Resources" --> "Password Policies"**
 
-4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
+<br><img src="/exercises/ex2/images/ex2pp1.png" width="70%">
+
+3. Click on the button **"Add Custom Policy"**. 
+
+<br><img src="/exercises/ex2/images/ex2pp2.png" width="70%">
+
+4. The dialog **"Custom Password Policy"** is displayed
+
+<br><img src="/exercises/ex2/images/ex2pp3.png" width="70%">
+
+5. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
+
 💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
 
-5. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
+6. Decide on the "Password Behavior". Should the user be able to reset an expired password with the old one, or should the user have to perform the password reset process?
 
-6. Set the "Required character groups count" to 3. SAP Cloud Identity services supports 4 types of character groups, uppercase letters, lowercase letters, numbers, and symbols. With this setting you specific how many different groups need to be part of the password. 
+7. Set the "Required character groups count" to 3. SAP Cloud Identity services supports 4 types of character groups, uppercase letters, lowercase letters, numbers, and symbols. With this setting you specific how many different groups need to be part of the password. 
 
-7. Fill out the remaining fields of the "Custom Password Policy" dialog and click on "Add". Your new password policy is added to the top of the list as it has the highest strength
+8. Fill out the remaining fields of the "Custom Password Policy" dialog and click on the **"Add"**-button. Your new password policy is added to the top of the list as it has the highest strength.
 
-You now know how to create a custom password policy that you can use for additional protection of your applications. 
+<br><img src="/exercises/ex2/images/ex2pp4.png" width="70%">
+
+You now know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the pasword policy to an application. 
+
+9. Navigate to **"Applications & Resources" -> "Applications"**. Select one application on thr left and choose on the right side **"Authentication & Access" -> "Policies"**.
+
+<br><img src="/exercises/ex2/images/addpp1.png" width="70%">
+
+10. Choose **"Password Policy"**
+
+<br><img src="/exercises/ex2/images/addpp2.png" width="70%">
+
+11. Selct your custom password policy. Clikc on the **"Save"**-button.
+
+Now the new password policy is active for the application. It sets the rules you defined for the password length nd content as well as how users can update and unlock passwords. 
 
 ## Exercise 2.3 Keep public access to applications by self-registration disabled
 
@@ -88,15 +113,27 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 Procedure
 
 1. Open the administration console for Cloud Identity Services.
-2. Under Applications and Resources, choose the Applications tile.
-3. Choose the application that you want to edit.
-4. Choose the Authentication and Access tab.
-5. Under AUTHENTICATION, choose User Application Access.
+
+<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+
+2. Under **"Applications & Resources"**, choose the **"Applications"** tile.
+
+<br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
+
+3. Choose the **"application"** that you want to edit.
+4. Choose the **"Authentication and Access"** tab.
+5. Under **"AUTHENTICATION"**, choose **"User Application Access"**.
+
+<br><img src="/exercises/ex2/images/ex2selfreg2.png" width="70%">
+
 6. Set the radio button for the users you want to allow to log on:
 - Public
 - Internal
 - Private
-7. Save your selection.
+
+<br><img src="/exercises/ex2/images/ex2selfreg3.png" width="70%">
+  
+7. Save your selection. The default setting is already **"Internal"**. Then you don´t need to change it.
 8. If the application is updated, the system displays the message Application <name of application> updated.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
@@ -107,11 +144,20 @@ Corporate identity lifecycle processes make social sign-on undesirable in most b
 Procedure
 
 1. Sign in to the administration console for SAP Cloud Identity Services.
-2. Under Applications and Resources, choose the Applications tile.
-3. Choose the application that you want to edit.
-4. Choose the Authentication and Access tab.
-5. Under AUTHENTICATION, enable or disable social sign-on.
-6. Once the application has been updated, the system displays the message Application <name of application> updated.
+
+<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
+
+2. Under **"Applications & Resources"**, choose the **"Applications"** tile.
+
+<br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
+
+3. Choose the **"application"** that you want to edit.
+4. Choose the **"Authentication and Access"** tab.
+5. Under **"AUTHENTICATION"**, enable or disable **"social sign-on"** using the radio-button. Per default it should be disabled.
+
+<br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
+
+6. Once the application has been updated, the system displays the message Application <name of application> updated. 
 
 With Social Sign-On users can log on to the application via one of the social providers. They can see this option on the logon page. Which social identity providers logos appear on the logon page of the application depends on the configurations you have made.
 
