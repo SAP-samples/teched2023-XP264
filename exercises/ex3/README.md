@@ -89,7 +89,7 @@ To do so click on the **"Edit"**-button.
  
 
 
-## Exercise 3.3 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service.
+## Exercise 3.3 Check the audit logs and download audit log entries via the SAP Audit Log Viewer service
 
 You can download the audit logs via the audit log retrieval API to import them into your Security Information and Event Management (SIEM) system or you can download them via the Viewer User Interface to store them as backup on your file system.
 Now you learn how to download them via the User Interface.
@@ -100,7 +100,7 @@ Now you learn how to download them via the User Interface.
 
 2. Navigate to **"Services " > "Instances and Subscriptions"**. Under Subscriptions you will see the **Audit Log Viewer service**. Next to the text field there is a link to the user interface. Click on it.
  
-  <br><img src="/exercises/ex3/images/audit0.png" width="70%">
+  <br><img src="/exercises/ex3/images/audit14.png" width="70%">
  
 3. In the newly opened **Audit Log Viewer UI** you can accept the default timeframe or select a specific one to see the latest audit log entries. On the right side there is button to retrieve the logs after the selection of the timeframe.
 
