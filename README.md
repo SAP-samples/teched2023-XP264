@@ -36,9 +36,12 @@ Now you are ready to start the excercises.
     - [Exercise 2.3 - Keep public access to applications by self-registration disabled](exercises/ex2#exercise-23---Keep-public-access-to-applications-by-self---registration-disabled)
     - [Exercise 2.4 - Keep Social Sign-On disabled](exercises/ex2#exercise-24---Keep-Social-Sign---On-disabled)
 - [Exercise 3 -Security Recommendations regarding the Audit Log](exercises/ex3/)
-    - [Exercise 3.1 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-31-configure-the-sap-audit-log-viewer-service)
-    - [Exercise 3.2 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
-  
+    - [Exercise 3.1 - Subscribe to the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-31-Subscribe-to-the-SAP-Audit-Log-Viewer-service)
+    - [Exercise 3.2 - Configure the SAP Audit Log Viewer service](exercises/ex3/README.md#Exercise-32-configure-the-sap-audit-log-viewer-service)
+    - [Exercise 3.3 - Check the audit logs and download audit log entries via the SAP Audit Log Viewer service](exercises/ex3/README.md#exercise-32-check-the-audit-logs-and-download-audit-log-entries-via-the-sap-audit-log-viewer-service)
+
+
+  Check the audit logs and download audit log entries via the SAP Audit Log Viewer service
 
 **IMPORTANT**
 
