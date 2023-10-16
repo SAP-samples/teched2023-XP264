@@ -6,7 +6,7 @@ We can expect that you did create a **Trial subccount** in your SAP BTP Trial Ac
 
 We also expect that you did enable the **Cloud Foundry Environment**.
 
-Following the blog to setup the SAP Cloud Identity Services Trial you did already establish the Trust configration in your BTP Trial Subaccount, which adds the TRIAL Identity Provider  for applications to enable users from your TRIAL Identity Provider to log on to applications consumed in this subaccount.
+Following the blog to setup the **SAP Cloud Identity Services Trial** you did already establish the Trust configration in your BTP Trial Subaccount, which adds the TRIAL Identity Provider  for applications to enable users from your TRIAL Identity Provider to log on to applications consumed in this subaccount.
 
 ## Result of the preparation
 
