@@ -33,7 +33,9 @@ Following the blog to setup the SAP Cloud Identity Services Trail you did alread
 
    Navigate in your Subaccoount to **Instance and Subscriptions**. Click on the tile next to the subscribt application **Cloud Identity Services** which says **Go to Application** when you hover over it. A new window opens with your SAP Cloud Identity Services Trail Account Cockpit. **Bookmark** the link for fast and quick access to the **SCI cockpit**.
 
-   <br>![](/exercises/ex0/images/SubaccountInstanceandSubscriptions.png)
+    <br>![](/exercises/ex0/images/SubaccountInstanceandSubscriptions.png)
+   
+     <br>![](/exercises/ex0/images/SCICockpit.png)
 
 7. In the **SCI administration console -> Applications & Resources -> Applications** you will see the trust configuration that was established by your BTP trial account. It is called **XSUAA_trail**.
 
