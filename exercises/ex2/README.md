@@ -15,28 +15,28 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 1. Open the administrative console for Cloud Identity Services from your bookmarks or like describt in the fist excercise. 
 
-<br><img src="/exercises/ex3/images/SCICockpit.png" width="70%">
+<br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
 2. First we will add a new test user. Navigate to **User & Authorizations -> User Management**
 3. Click on the **+ Add** -button
 
-<br><img src="/exercises/ex3/images/ex200user1.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
 
 4. A pop-Up window will allow to enter the relvant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add** -button.
 
-<br><img src="/exercises/ex3/images/ex200user2.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
 
 5. Now we add the newly created user to the Administrators. Choose the menu item **"Users&Authorizations" --> "Administrators".**
 
-<br><img src="/exercises/ex3/images/ex22.png" width="70%">
+<br><img src="/exercises/ex2/images/ex22.png" width="70%">
 
 6. Click on **Add -> User**
 
-<br><img src="/exercises/ex3/images/ex20add.png" width="70%">
+<br><img src="/exercises/ex2/images/ex20add.png" width="70%">
 
 7. Add the **Identifier** information of the new test user in the Add Administrator window and click on the **Save**-button.
 
-<br><img src="/exercises/ex3/images/ex200user3.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user3.png" width="70%">
    
 7. Now we can check the User and his authorizations. The assignment of the following authorizations is critical.
 You will manage them ideally as part of your identity lifecycle process.
@@ -44,15 +44,15 @@ You will manage them ideally as part of your identity lifecycle process.
 - Manage Tenant Configuration
 - Manage Users
   
-<br><img src="/exercises/ex3/images/ex200user4.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user4.png" width="70%">
 
 8. Remove the Authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Thn clikc on the **Save**-button.
 
-<br><img src="/exercises/ex3/images/ex200user5.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
 
 9. Noy you have to confirm your changes. Click on the **Okay**-button. Then the only administrator left will be your trial account user.
 
-<br><img src="/exercises/ex3/images/ex200user6.png" width="70%">
+<br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
 
 Then the only administrator left will be your trial account user. You cannot remove the authorizations of this user completely, as he is the only one left. **Manage Tenant Configuration**
 and **Manage tenant configuration and authorization assignment to users** is therefore greyed out. 
@@ -64,10 +64,10 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 1. Open the administration console for Cloud Identity Services. 
 
 2. Choose the menu item "Applications & Resources" --> "Password Policies"
-<br><img src="/exercises/ex3/images/Menu_Item_Password_Policies.png" width="70%">
+<br><img src="/exercises/ex2/images/Menu_Item_Password_Policies.png" width="70%">
 
 3. Click on the button "Add Custom Policy". The dialog "Custom Password Policy" is displayed
-<br><img src="/exercises/ex3/images/Custom_Password_Policy.png" width="70%">
+<br><img src="/exercises/ex2/images/Custom_Password_Policy.png" width="70%">
 
 4. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
