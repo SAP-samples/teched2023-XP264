@@ -59,6 +59,7 @@ You cannot remove the authorizations of this user completely, as he is the only 
 The authorization
 - Manage Tenant Configuration
 - Manage tenant configuration and authorization assignment to users 
+
 is therefore greyed out. 
 
 <br><img src="/exercises/ex2/images/ex2_MTC.png" width="70%">
