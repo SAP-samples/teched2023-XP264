@@ -163,9 +163,13 @@ Procedure
 
 <br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
 
-6. Once the application has been updated, the system displays the message "Application - *name of application*" updated. 
+6. Once the application has been updated, the system displays the message "Application - *name of application*" updated.
 
 With Social Sign-On users can log on to the application via one of the social providers. They can see this option on the logon page. Which social identity providers logos appear on the logon page of the application depends on the configurations you have made.
+
+7. Logout at the **SCI administrative console**.
+
+<br><img src="/exercises/ex1/images/SCI_logout.png" width="70%">
 
 ## Summary
 
