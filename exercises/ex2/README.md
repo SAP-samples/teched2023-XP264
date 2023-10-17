@@ -67,9 +67,9 @@ is greyed out.
 
 ## Exercise 2.2 Defining a custom password policy
 
-By default, SAP Cloud Identity services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your password policy, based on your company's requirements.
+By default, SAP Cloud Identity services come with 2 password policies, Standard and Enterprise. In this exercise you will learn how to define your own password policy, based on your company's requirements.
 
-1. Open the administration console for Cloud Identity Services. 
+1. Open the **administration console for Cloud Identity Services**. 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
@@ -97,9 +97,9 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 <br><img src="/exercises/ex2/images/ex2pp4.png" width="70%">
 
-You now know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the pasword policy to an application. 
+Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the pasword policy to an application. 
 
-9. Navigate to **"Applications & Resources" -> "Applications"**. Select one application on thr left and choose on the right side **"Authentication & Access" -> "Policies"**.
+9. Navigate to **"Applications & Resources" -> "Applications"**. Select one application on the left and choose on the right side **"Authentication & Access" -> "Policies"**.
 
 <br><img src="/exercises/ex2/images/addpp1.png" width="70%">
 
@@ -107,9 +107,9 @@ You now know how to create a custom password policy that you can use for additio
 
 <br><img src="/exercises/ex2/images/addpp2.png" width="70%">
 
-11. Selct your custom password policy. Clikc on the **"Save"**-button.
+11. Select your custom password policy. Click on the **"Save"**-button.
 
-Now the new password policy is active for the application. It sets the rules you defined for the password length nd content as well as how users can update and unlock passwords. 
+Now the new password policy is active for the application. It sets the rules you defined for the password length and content as well as how users can update and unlock passwords. 
 
 ## Exercise 2.3 Keep public access to applications by self-registration disabled
 
@@ -118,7 +118,7 @@ Corporate identity lifecycle processes make self-registration undesirable in mos
 
 Procedure
 
-1. Open the administration console for Cloud Identity Services.
+1. Open the **administration console for Cloud Identity Services**.
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
@@ -139,17 +139,17 @@ Procedure
 
 <br><img src="/exercises/ex2/images/ex2selfreg3.png" width="70%">
   
-7. Save your selection. The default setting is already **"Internal"**. Then you don´t need to change it.
+7. Save your selection. The default setting is already **"Internal"**. Because of that you don´t need to change it.
 8. If the application is updated, the system displays the message Application <name of application> updated.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
-For business-to-consumer (public) scenarios, social sign-on may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, social sign-on is disabled, set to Off, and can be configured per application.
+For business-to-consumer (public) scenarios, Social Sign-On may be required. If activated users are allowed to log on with their Apple, Google, Facebook, Twitter, or LinkedIn accounts. By default, Social Sign-On is disabled, set to Off, and can be configured per application.
 Corporate identity lifecycle processes make social sign-on undesirable in most business-to-employee (B2E) and business-to-business (B2B) scenarios.
 
 Procedure
 
-1. Sign in to the administration console for SAP Cloud Identity Services.
+1. Sign in to the **administration console for SAP Cloud Identity Services**.
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
@@ -159,7 +159,7 @@ Procedure
 
 3. Choose the **"application"** that you want to edit.
 4. Choose the **"Authentication and Access"** tab.
-5. Under **"Authentication"**, enable or disable **"Social Sign-On"** using the radio-button. Per default it should be disabled.
+5. Under **"Authentication"**, enable or disable **"Social Sign-On"** using the radio-button. Per default it should be disabled. Because of that you don´t need to change it.
 
 <br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
 
