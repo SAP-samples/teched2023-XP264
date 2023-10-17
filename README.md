@@ -17,7 +17,7 @@ The requirements to follow the exercises in this repository are active Trial Acc
 **First you have to get your SAP BTP Trial Account. Follow the instructions:** 
 [Get a Free Account on SAP BTP Trial](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
 
-**Second task is to activate your SAP Cloud Identity Services Trial. Follow the instrustions in this blog:** 
+**Second task is to activate your SAP Cloud Identity Services Trial. Follow the instructions in this blog:** 
 [SAP Cloud Identity Services offered as Trial Version](https://blogs.sap.com/2023/04/13/sap-cloud-identity-services-offered-as-trial-version/)
 
 **Third task is to install on your mobile device a time-based authentication application (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).**
