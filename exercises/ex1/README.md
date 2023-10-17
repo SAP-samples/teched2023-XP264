@@ -1,7 +1,7 @@
 # Exercise 1 - Enable Multi-Factor Authentication for applications
 
-In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multi-Factor Authentication, for the access to the SAP BTP and the Cloud Identity Services Cockpit. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
-The configuration in the SCI cockpit is the same, only for a different application. You will use SAP Build Apps as application to configure the riskbased authentication.
+In this exercise, we will show how to enable Multi-Factor Authentication (MFA) using Time-based one-time password (TOTP) for Application Users. In general we recommend to configure Risk-Based Authentication methods, such as Multi-Factor Authentication, for the access to the **SAP BTP Cockpit** and the **SCI administrative console**. In the trial version this is not possible, because there is no possility to set up a trust configuration to your BTP account on Global account level. This would be necessary to configure the trust for [platform users](https://help.sap.com/docs/btp/best-practices/basic-platform-concepts). 
+The configuration in the **SCI administrative console** is the same, only for a different application. You will use **SAP Build Apps** as application to configure the risk-based authentication.
 
 :bulb: **What is Multi-Factor Authentication (MFA)?**
 
@@ -21,7 +21,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 ## Exercise 1.1 - Setup SAP Build Apps and enter the application with your trial identity provider user
 
 
-1. Open the SAP BTP Cockpit and navigate to your global account. You should have bookmarked the URL in the Getting started excercise.
+1. Open the **SAP BTP Cockpit** and navigate to your global account. You should have bookmarked the URL in the **Getting started** excercise.
 
 2. Navigate to **Boosters**
 
@@ -41,7 +41,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/booster3.png" width="70%">
 
-8. Configure subbaccount - enter your trial subaccount
+8. Configure subaccount - enter your trial subaccount
 
 <br><img src="/exercises/ex1/images/Booster4.png" width="70%">
 
@@ -69,7 +69,7 @@ A Time-based One-Time Password (TOTP) is a numerical code which is generated wit
 
 <br><img src="/exercises/ex1/images/logonSAPBulidApp.png" width="70%">
 
-15. The Logon should be succesfull as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the SAP Build App application.
+15. The Logon should be succesfull as your user is assigned to the role collections needed during the booster creation process. You will see the entry page of the **SAP Build App** application.
 
 <br><img src="/exercises/ex1/images/SAP Build App.png" width="70%">
 
@@ -86,15 +86,15 @@ In exercise 1.1 we enabled SAP Build Apps and the configured users are now able 
 
 <br><img src="/exercises/ex1/images/Singoutsapbuild.png" width="70%">
 
-2. Open the **SCI administrative console**, either from your bookmark or from the BTP cockpit (In the BTP Cockpit navigate to  -> **Instances and Subscriptions** -> click on the Tile next to Cloud Identity Services).
+2. Open the **SCI administrative console**, either from your bookmark or from the **BTP cockpit** (In the BTP Cockpit navigate to  -> **Instances and Subscriptions** -> click on the Tile next to Cloud Identity Services).
 
 <br><img src="/exercises/ex1/images/openSCItenant.png" width="70%">
 
-3. In the pop-up window Sign-In with your email and password to the SCI Cockpit.
+3. In the pop-up window Sign-In with your email and password to the **SCI administrative console**.
    
 <br><img src="/exercises/ex1/images/SigninSCITRIAL.png" width="70%">
 
-4. In the SCI Cockpit navigate to **Applications & Resources -> Applications**
+4. In the **SCI administrative console** navigate to **Applications & Resources -> Applications**
 
 <br><img src="/exercises/ex1/images/SCItenantApplications.png" width="70%">
 
@@ -122,13 +122,13 @@ Once the configuration is complete, the system prompts the user to select any of
 
 ## Exercise 1.3 - Enable MFA for your User
 
-1. Navigate to your users profile page in SCI.
+1. Navigate to your users profile page in **SCI**.
 
 2. The user profile shows you the authentication methods setup for a user. You can access it through the following link in the trial envrionment: 
 
-**https://trialtenant.trial-accounts.ondemand.com/ui/protected/profilemanagement**
+**https://"trialtenant-ID".trial-accounts.ondemand.com/ui/protected/profilemanagement**
 
-Add the **ui/protected/profilemanagement** in your browser after **https://trialtenant.trial-accounts.ondemand.com/**
+Add the **ui/protected/profilemanagement** in your browser after **https://"trialtenant-ID".trial-accounts.ondemand.com/**
 
 Here you can add/remove your authentication method, like accessing using your fingerprint etc. The next steps need a device with a time-based authentication application installed (such as SAP Authenticator, Google Authenticator or Microsoft Authenticator).
 
@@ -144,9 +144,13 @@ Here you can add/remove your authentication method, like accessing using your fi
 
 <br><img src="/exercises/ex1/images/userprofile3.png" width="70%">
 
-6. To get back to the SCI administrative cockpit add add **admin** in your browser after **https://trialtenant.trial-accounts.ondemand.com/** or use your bookmark.
+6. To get back to the **SCI administrative console** add add **admin** in your browser after **https://"trialtenant-ID".trial-accounts.ondemand.com/** or use your bookmark.
 
-7. Navigate to the **SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application**
+7. Logout at the **SCI administrative console**.
+
+<br><img src="/exercises/ex1/images/MFASAPBUILDAPPSOpen.png" width="70%">
+
+8. Navigate to the **SAP BTP cockpit -> Instance and Subscriptions -> SAP Build Apps -> Open the Application**
 
 <br><img src="/exercises/ex1/images/MFASAPBUILDAPPSOpen.png" width="70%">
 
