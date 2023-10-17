@@ -18,15 +18,15 @@ It makes sense to review on a regular basis whether the users actually need acce
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
 2. First we will add a new test user. Navigate to **User & Authorizations -> User Management**
-3. Click on the **+ Add** -button
+3. Click on the **+ Add**-button
 
 <br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
 
-4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add** -button.
+4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add**-button.
 
 <br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
 
-5. Now we add the newly created user to the Administrators. Choose the menu item **"Users & Authorizations" --> "Administrators".**
+5. Now we add the newly created user to the Administrators. Choose the menu item **Users & Authorizations --> Administrators**.
 
 <br><img src="/exercises/ex2/images/ex22.png" width="70%">
 
@@ -73,19 +73,19 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-2. Choose the menu item **"Applications & Resources" --> "Password Policies"**
+2. Choose the menu item **Applications & Resources --> Password Policies**
 
 <br><img src="/exercises/ex2/images/ex2pp1.png" width="70%">
 
-3. Click on the button **"Add Custom Policy"**. 
+3. Click on the button **Add Custom Policy**. 
 
 <br><img src="/exercises/ex2/images/ex2pp2.png" width="70%">
 
-4. The dialog **"Custom Password Policy"** is displayed
+4. The dialog **Custom Password Policy** is displayed
 
 <br><img src="/exercises/ex2/images/ex2pp3.png" width="70%">
 
-5. Set the policy strength to 3. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
+5. Set the policy strength to **3**. This implies that this policy has a higher priority than the existing policies "Standard" and "Enterprise". This becomes relevant when a user accesses applications with different password policy requirements. A password policy with strength 3 will also be accepted by applications that require strength 1 or 2.
 
 💡 Identity Authentication service does not measure the strength of the policy that you define. It is up to you do decide, which properties are required for a password to be considered strong
 
@@ -99,15 +99,15 @@ By default, SAP Cloud Identity services come with 2 password policies, Standard 
 
 Now you know how to create a custom password policy that you can use for additional protection of your applications. We now want to add the pasword policy to an application. 
 
-9. Navigate to **"Applications & Resources" -> "Applications"**. Select one application on the left and choose on the right side **"Authentication & Access" -> "Policies"**.
+9. Navigate to **Applications & Resources -> Applications**. Select one application on the left and choose on the right side **Authentication & Access -> Policies**.
 
 <br><img src="/exercises/ex2/images/addpp1.png" width="70%">
 
-10. Choose **"Password Policy"**
+10. Choose **Password Policy**
 
 <br><img src="/exercises/ex2/images/addpp2.png" width="70%">
 
-11. Select your custom password policy. Click on the **"Save"**-button.
+11. Select your custom password policy. Click on the **Save**-button.
 
 Now the new password policy is active for the application. It sets the rules you defined for the password length and content as well as how users can update and unlock passwords. 
 
@@ -122,13 +122,13 @@ Procedure
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-2. Under **"Applications & Resources"**, choose the **"Applications"** tile.
+2. Under **Applications & Resources**, choose the **Applications** tile.
 
 <br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
 
-3. Choose the **"application"** that you want to edit.
-4. Choose the **"Authentication and Access"** tab.
-5. Under **"Authentication"**, choose **"User Application Access"**.
+3. Choose the **application** that you want to edit.
+4. Choose the **Authentication and Access** tab.
+5. Under **Authentication**, choose **User Application Access**.
 
 <br><img src="/exercises/ex2/images/ex2selfreg2.png" width="70%">
 
@@ -139,7 +139,7 @@ Procedure
 
 <br><img src="/exercises/ex2/images/ex2selfreg3.png" width="70%">
   
-7. Save your selection. The default setting is already **"Internal"**. Because of that you don´t need to change it.
+7. Save your selection. The default setting is already **Internal**. Because of that you don´t need to change it.
 8. If the application is updated, the system displays the message "Application - *name of application*" updated.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
@@ -153,13 +153,13 @@ Procedure
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
-2. Under **"Applications & Resources"**, choose the **"Applications"** tile.
+2. Under **Applications & Resources**, choose the **Applications** tile.
 
 <br><img src="/exercises/ex2/images/ex2selfreg1.png" width="70%">
 
-3. Choose the **"application"** that you want to edit.
-4. Choose the **"Authentication and Access"** tab.
-5. Under **"Authentication"**, enable or disable **"Social Sign-On"** using the radio-button. Per default it should be disabled. Because of that you don´t need to change it.
+3. Choose the **application** that you want to edit.
+4. Choose the **Authentication and Access** tab.
+5. Under **Authentication**, enable or disable **Social Sign-On** using the radio-button. Per default it should be disabled. Because of that you don´t need to change it.
 
 <br><img src="/exercises/ex2/images/ex2sso1.png" width="70%">
 
