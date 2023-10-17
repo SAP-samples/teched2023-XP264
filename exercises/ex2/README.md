@@ -56,11 +56,11 @@ You will manage them ideally as part of your identity lifecycle process.
 
 The only administrator left will be your trial account user.
 You cannot remove the authorizations of this user completely, as he is the only one left. 
-The authorization
+For this reason the authorization
 - Manage Tenant Configuration
 - Manage tenant configuration and authorization assignment to users 
 
-is therefore greyed out. 
+is greyed out. 
 
 <br><img src="/exercises/ex2/images/ex2_MTC.png" width="70%">
 
