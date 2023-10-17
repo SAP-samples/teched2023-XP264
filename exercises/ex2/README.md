@@ -11,9 +11,9 @@ In this exercise you will learn about further security recommendations that help
 
 ## Exercise 2.1 Identify obsolete users
 
-It makes sense to review on a regular basis whether the users actually need access to adminsitrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this excercise. One is the SAP BTP cockpit and the other one is the administrative console for Cloud Identity Services. In the TRIAL BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this excersice we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
+It makes sense to review on a regular basis whether the users actually need access to adminsitrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this excercise. One is the **SAP BTP cockpit** and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this excercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
-1. Open the administrative console for Cloud Identity Services from your bookmarks or like describt in the fist excercise. 
+1. Open the **administrative console for Cloud Identity Services** from your bookmarks or like describt in the fist excercise. 
 
 <br><img src="/exercises/ex2/images/SCICockpit.png" width="70%">
 
@@ -22,7 +22,7 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex200user1.png" width="70%">
 
-4. A pop-Up window will allow to enter the relvant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add** -button.
+4. A pop-Up window will allow to enter the relevant test user information. You are free to choose the name and email adress. Set the status to active. Click on the **+ Add** -button.
 
 <br><img src="/exercises/ex2/images/ex200user2.png" width="70%">
 
@@ -34,7 +34,7 @@ It makes sense to review on a regular basis whether the users actually need acce
 
 <br><img src="/exercises/ex2/images/ex20add.png" width="70%">
 
-7. Add the **Identifier** information of the new test user in the Add Administrator window and click on the **Save**-button.
+7. Add the **Identifier** information (Email adress) of the new test user in the Add Administrator window and click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/ex200user3.png" width="70%">
    
@@ -46,17 +46,22 @@ You will manage them ideally as part of your identity lifecycle process.
   
 <br><img src="/exercises/ex2/images/ex200user4.png" width="70%">
 
-8. Remove the Authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Thn click on the **Save**-button.
+8. Remove the authorizations, which are not needed anymore. If you remove all of them the user will no longer be an administrator, and the name will be removed from the list on the left. We will do this now. Uncheck all Radio-buttons. Then click on the **Save**-button.
 
 <br><img src="/exercises/ex2/images/ex200user5.png" width="70%">
 
-9. Now you have to confirm your changes. Click on the **Okay**-button. The only administrator left will be your trial account user.
+9. Now you have to confirm your changes. Click on the **Okay**-button. 
 
 <br><img src="/exercises/ex2/images/ex200user6.png" width="70%">
 
-You cannot remove the authorizations of this user completely, as he is the only one left. **Manage Tenant Configuration**
-and **Manage tenant configuration and authorization assignment to users** is therefore greyed out. 
+The only administrator left will be your trial account user.
+You cannot remove the authorizations of this user completely, as he is the only one left. 
+The authorization
+-**Manage Tenant Configuration**
+-**Manage tenant configuration and authorization assignment to users** 
+is therefore greyed out. 
 
+<br><img src="/exercises/ex2/images/ex2_MTC.png" width="70%">
 
 
 ## Exercise 2.2 Defining a custom password policy
