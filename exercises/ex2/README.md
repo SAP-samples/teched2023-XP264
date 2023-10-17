@@ -140,7 +140,7 @@ Procedure
 <br><img src="/exercises/ex2/images/ex2selfreg3.png" width="70%">
   
 7. Save your selection. The default setting is already **"Internal"**. Because of that you don´t need to change it.
-8. If the application is updated, the system displays the message Application <name of application> updated.
+8. If the application is updated, the system displays the message "Application - name of application" updated.
 
 ## Exercise 2.4 Keep Social Sign-On disabled
 
