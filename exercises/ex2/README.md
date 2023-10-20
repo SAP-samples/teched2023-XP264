@@ -9,7 +9,7 @@ In this exercise you will learn about further security recommendations that help
 - BTP-IAS-0017
 
 
-## Exercise 2.1 Identify obsolete users
+## Exercise 2.1 Manage obsolete administrators
 
 It makes sense to review on a regular basis whether the users actually need access to adminsitrative tasks and cockpits. After all, an abandoned account with high privileges could become an attack target. We have two administrative cockpits we deal with in this excercise. One is the **SAP BTP cockpit** and the other one is the **administrative console for Cloud Identity Services**. In the Trial BTP cockpit we don´t have access to the global account user management and security functionalities. In the administrative console for Cloud Identity Services we have access. In this excercise we will check for the users in the administrative console for Cloud Identity Services. SAP Cloud Identity services play a critical role in the access to SAP cloud applications. Because the central role of the services, it's required to reduce the number of administrators with full access. SAP Cloud Identity services permissions are based on the internal user store and its permission concept.
 
